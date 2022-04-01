@@ -12,18 +12,29 @@ If you use these data please cite
 
 This dataset is licensed under a CC-BY-4.0 license
 
+## Notes
+
+
+
+
 ## Statistics
 
 
 ![Glottolog: 0%](https://img.shields.io/badge/Glottolog-0%25-red.svg "Glottolog: 0%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![BIPA: 36%](https://img.shields.io/badge/BIPA-36%25-red.svg "BIPA: 36%")
+![CLTS SoundClass: 36%](https://img.shields.io/badge/CLTS%20SoundClass-36%25-red.svg "CLTS SoundClass: 36%")
 
 - **Varieties:** 3
-- **Concepts:** 3,901
-- **Lexemes:** 11,434
+- **Concepts:** 3,893
+- **Lexemes:** 11,426
 - **Sources:** 1
 - **Synonymy:** 1.00
+- **Invalid lexemes:** 0
+- **Tokens:** 40,325
+- **Segments:** 152 (97 BIPA errors, 97 CTLS sound class errors, 55 CLTS modified)
+- **Inventory size (avg):** 89.00
 
 # Contributors
 

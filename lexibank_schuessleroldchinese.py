@@ -13,6 +13,7 @@ from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.util import pb, getEvoBibAsBibtex
 
 import re
+from sinopy import is_chinese
 
 
 def parse_gloss(entry):
@@ -90,15 +91,20 @@ class Dataset(BaseDataset):
                         Name=concept,
                         Number=idx,
                         Description=row["Notes"])
-                for lang, reading in [("OldChinese", "OCM_IPA"),
+                for lang, reading_ in [("OldChinese", "OCM_IPA"),
                         ("LateHanChinese", "LH_IPA"),
                         ("MiddleChinese", "QY_IPA")]:
-                    reading = row[reading].strip()
+                    reading = row[reading_].strip()
                     reading_variants = ""
                     if "or" in reading:
                         reading_variants = reading
                         reading = reading.split("or")[0].strip()
-                    if reading:
+                    if is_chinese(reading):
+                        args.log.info("{0} has wrong form {1} for {2}".format(
+                            row["ID"],
+                            row[reading_],
+                            lang))
+                    elif reading:
                         args.writer.add_forms_from_value(
                                 Local_ID=row["pinyin_index"],
                                 FormVariants=reading_variants,

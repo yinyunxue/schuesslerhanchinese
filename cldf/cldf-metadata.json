@@ -13,7 +13,7 @@
         {
             "rdf:about": "https://github.com/yinyunxue/schuesslerhanchinese",
             "rdf:type": "prov:Entity",
-            "dc:created": "cae5df2",
+            "dc:created": "6ebce5f",
             "dc:title": "Repository"
         },
         {
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 11434,
+            "dc:extent": 11426,
             "tableSchema": {
                 "columns": [
                     {
@@ -246,7 +246,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 3901,
+            "dc:extent": 3893,
             "tableSchema": {
                 "columns": [
                     {
