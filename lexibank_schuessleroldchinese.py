@@ -92,10 +92,10 @@ class Dataset(BaseDataset):
                     entry["ST"] += [line[2:]]
                 elif ":" in line:
                     head = line[:line.index(":")]
-                    rest = ":".join(line.split(":")[1:])
+                    rest = ":".join(line.split(":")[1:]).strip()
                     for h in ["Middle Chinese", "Later Han", "Minimal Old Chinese"]:
                         if rest.startswith(h+":"):
-                            rest = ":".join(rest.split(":")[1:])
+                            rest = ":".join(rest.split(":")[1:]).strip()
                     if head == "GLOSS":
                         entry["GLOSS"] += [rest]
                     else:
@@ -131,6 +131,14 @@ class Dataset(BaseDataset):
                             ("LateHanChinese", "LH"), 
                             ("OldChinese", "OCM")]:
                         if language in entry:
+                            # check for problematic entries
+                            if entry[language] not in self.lexemes:
+                                test = self.form_spec.split(None, entry[language])
+                                if not test or len(test[0]) > 8:
+                                    args.log.info("problematic entry {0} / {1}".format(
+                                                entry["ENTRY"],
+                                                entry[language]))
+
                             args.writer.add_forms_from_value(
                                     Local_ID=entry["ENTRY"],
                                     Entry_In_Source=entry["HEAD"],

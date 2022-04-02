@@ -25,3 +25,8 @@ These methods use the attributes of a `FormSpec` instance to configure their beh
   Flag signaling whether to normalize whitespace - stripping leading and trailing whitespace and collapsing multi-character whitespace to single spaces
 - `normalize_unicode`: `None`
   UNICODE normalization form to use for input of `split` (`None`, 'NFD' or 'NFC')
+
+### Replacement of invalid lexemes
+
+Source lexemes may be impossible to interpret correctly. 303 such lexemes are listed
+in [`etc/lexemes.csv`](etc/lexemes.csv) and replaced as specified in this file.
