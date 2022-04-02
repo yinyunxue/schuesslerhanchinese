@@ -2,49 +2,40 @@
     "by_language": {
         "LateHanChinese": {
             "bipa_errors": [
-                "\u015b\u02b0",
-                "n\u1d9c",
-                "\u1e6dh\u02b0",
                 "u\u1d2e",
-                "hw",
-                "\u0259\u1d9c",
-                "n\u1d2e",
-                "\u014b\u1d2e",
-                "\u0251\u1d2e",
-                "o\u1d9c",
-                "e\u1d2e",
-                "\u0263w",
-                "\u0268\u1d2e",
-                "\u014b\u1d2c",
-                "\u1e0d",
-                "u\u1d9c",
-                "\u1e6d",
-                "\u1e63",
-                "\u015b",
-                "n\u01c3",
-                "\u0294w",
-                "\u0144",
-                "i\u1d9c",
-                "\u0251\u1d9c",
-                "e\u1d9c",
-                "gw",
-                "<?>",
                 "o\u1d2e",
-                "\u0259\u1d2e",
-                "\u1e63\u02b0",
-                "\u025b\u1d9c",
-                "\u1e6d\u02b0",
-                "\u1e93",
-                "a\u1d2e",
-                "\u014b\u1d9c",
-                "m\u1d9c",
+                "\u015b",
+                "hw",
+                "o\u1d9c",
+                "\u1e63",
+                "<?>",
+                "e\u1d9c",
+                "\u0251\u1d9c",
+                "e\u1d2e",
+                "<<\u017a>>",
+                "\u1e6d",
+                "\u1e6dh\u02b0",
+                "<<_>>",
                 "i\u1d2e",
+                "\u025b\u1d2e",
+                "\u025b\u1d9c",
+                "n\u01c3",
+                "\u0251\u1d2e",
                 "m\u1d2e",
-                "a\u1d9c",
-                "\u025b\u1d2e"
+                "\u0294w",
+                "<<\u1e93>>",
+                "\u014b\u1d2e",
+                "\u014b\u1d2c",
+                "n\u1d9c",
+                "\u1e0d",
+                "<<\u02b0>>",
+                "\u0144"
             ],
-            "general_errors": 2265,
+            "general_errors": 878,
             "replacements": {
+                "+": [
+                    "+"
+                ],
                 "_": [
                     "_"
                 ],
@@ -84,6 +75,9 @@
                 "h": [
                     "h"
                 ],
+                "h/\u00b3": [
+                    "\u00b3"
+                ],
                 "i": [
                     "i"
                 ],
@@ -95,6 +89,9 @@
                 ],
                 "j": [
                     "j"
+                ],
+                "jw/\u0265": [
+                    "\u0265"
                 ],
                 "k": [
                     "k"
@@ -108,11 +105,17 @@
                 "l": [
                     "l"
                 ],
+                "lh/l\u0325": [
+                    "l\u0325"
+                ],
                 "m": [
                     "m"
                 ],
                 "n": [
                     "n"
+                ],
+                "n\u0301z\u0301/\u0235": [
+                    "\u0235"
                 ],
                 "n\u0329": [
                     "n\u0329"
@@ -159,17 +162,23 @@
                 "x": [
                     "x"
                 ],
-                "y": [
-                    "y"
+                "y/j": [
+                    "j"
                 ],
                 "z": [
                     "z"
+                ],
+                "z\u0301/\u0291": [
+                    "\u0291"
                 ],
                 "\u00b2": [
                     "\u00b2"
                 ],
                 "\u014b": [
                     "\u014b"
+                ],
+                "\u014bh/\u014b\u030a": [
+                    "\u014b\u030a"
                 ],
                 "\u0250": [
                     "\u0250"
@@ -192,89 +201,87 @@
                 "\u0263": [
                     "\u0263"
                 ],
+                "\u0265": [
+                    "\u0265"
+                ],
                 "\u0266": [
                     "\u0266"
                 ],
                 "\u0268": [
                     "\u0268"
                 ],
+                "\u0288\u02b0": [
+                    "\u0288\u02b0"
+                ],
                 "\u0294": [
                     "\u0294"
+                ],
+                "\u1d2e/\u00b2": [
+                    "\u00b2"
+                ],
+                "\u1d9c/\u00b3": [
+                    "\u00b3"
                 ]
             },
             "sclass_errors": [
-                "\u015b\u02b0",
-                "n\u1d9c",
-                "\u1e6dh\u02b0",
                 "u\u1d2e",
-                "hw",
-                "\u0259\u1d9c",
-                "n\u1d2e",
-                "\u014b\u1d2e",
-                "\u0251\u1d2e",
-                "o\u1d9c",
-                "e\u1d2e",
-                "\u0263w",
-                "\u0268\u1d2e",
-                "\u014b\u1d2c",
-                "\u1e0d",
-                "u\u1d9c",
-                "\u1e6d",
-                "\u1e63",
-                "\u015b",
-                "n\u01c3",
-                "\u0294w",
-                "\u0144",
-                "i\u1d9c",
-                "\u0251\u1d9c",
-                "e\u1d9c",
-                "gw",
-                "<?>",
                 "o\u1d2e",
-                "\u0259\u1d2e",
-                "\u1e63\u02b0",
-                "\u025b\u1d9c",
-                "\u1e6d\u02b0",
-                "\u1e93",
-                "a\u1d2e",
-                "\u014b\u1d9c",
-                "m\u1d9c",
+                "\u015b",
+                "hw",
+                "o\u1d9c",
+                "\u1e63",
+                "<?>",
+                "e\u1d9c",
+                "\u0251\u1d9c",
+                "e\u1d2e",
+                "<<\u017a>>",
+                "\u1e6d",
+                "\u1e6dh\u02b0",
+                "<<_>>",
                 "i\u1d2e",
+                "\u025b\u1d2e",
+                "\u025b\u1d9c",
+                "n\u01c3",
+                "\u0251\u1d2e",
                 "m\u1d2e",
-                "a\u1d9c",
-                "\u025b\u1d2e"
+                "\u0294w",
+                "<<\u1e93>>",
+                "\u014b\u1d2e",
+                "\u014b\u1d2c",
+                "n\u1d9c",
+                "\u1e0d",
+                "<<\u02b0>>",
+                "\u0144"
             ],
             "segments": {
-                "<?>": 155,
-                "_": 107,
-                "a": 489,
-                "a\u1d2e": 24,
-                "a\u1d9c": 25,
+                "+": 48,
+                "<<_>>": 2,
+                "<<\u017a>>": 59,
+                "<<\u02b0>>": 62,
+                "<<\u1e93>>": 23,
+                "<?>": 3,
+                "a": 538,
                 "b": 153,
                 "d": 335,
-                "e": 407,
-                "e\u1d2e": 25,
-                "e\u1d9c": 27,
-                "g": 236,
-                "gw": 2,
+                "e": 457,
+                "e\u1d2e": 1,
+                "e\u1d9c": 1,
+                "g": 238,
                 "h": 110,
                 "hw": 3,
-                "i": 716,
-                "i\u1d2e": 106,
-                "i\u1d9c": 72,
+                "i": 893,
+                "i\u1d2e": 1,
                 "j": 145,
                 "k": 758,
                 "k\u02b0": 149,
                 "k\u02b7": 8,
                 "l": 226,
-                "m": 302,
-                "m\u1d2e": 73,
-                "m\u1d9c": 35,
-                "n": 353,
+                "m": 409,
+                "m\u1d2e": 1,
+                "n": 639,
                 "n\u01c3": 1,
                 "n\u0329": 25,
-                "n\u1d2e": 132,
-                "n\u1d9c": 167,
+                "n\u1d9c": 13,
                 "o": 296,
                 "o\u1d2e": 45,
                 "o\u1d9c": 53,
@@ -286,110 +293,101 @@
                 "ts": 107,
                 "ts\u02b0": 76,
                 "t\u02b0": 76,
-                "u": 851,
-                "u\u1d2e": 88,
-                "u\u1d9c": 98,
-                "w": 73,
+                "u": 1033,
+                "u\u1d2e": 4,
+                "w": 77,
                 "x": 3,
-                "y": 86,
+                "y/j": 86,
                 "z": 133,
                 "\u0144": 79,
-                "\u014b": 474,
+                "\u014b": 695,
                 "\u014b\u1d2c": 1,
-                "\u014b\u1d2e": 113,
-                "\u014b\u1d9c": 112,
-                "\u015b": 200,
-                "\u015b\u02b0": 36,
-                "\u0251": 911,
-                "\u0251\u1d2e": 91,
-                "\u0251\u1d9c": 71,
+                "\u014b\u1d2e": 4,
+                "\u015b": 236,
+                "\u017a/\u0291": 27,
+                "\u0251": 1071,
+                "\u0251\u1d2e": 1,
+                "\u0251\u1d9c": 1,
                 "\u0254": 44,
-                "\u0259": 279,
-                "\u0259\u1d2e": 50,
-                "\u0259\u1d9c": 44,
+                "\u0259": 373,
                 "\u025b": 98,
                 "\u025b\u1d2e": 9,
                 "\u025b\u1d9c": 9,
-                "\u0263": 41,
-                "\u0263w": 2,
-                "\u0268": 429,
-                "\u0268\u1d2e": 6,
+                "\u0263": 43,
+                "\u0268": 435,
+                "\u0288\u02b0": 22,
                 "\u0294": 169,
                 "\u0294w": 1,
+                "\u1d2e/\u00b2": 696,
+                "\u1d9c/\u00b3": 636,
                 "\u1e0d": 92,
-                "\u1e63": 87,
-                "\u1e63\u02b0": 26,
+                "\u1e63": 113,
                 "\u1e6d": 59,
-                "\u1e6dh\u02b0": 1,
-                "\u1e6d\u02b0": 22,
-                "\u1e93": 23
+                "\u1e6dh\u02b0": 1
             }
         },
         "MiddleChinese": {
             "bipa_errors": [
-                "\u1e63w",
-                "\u015b\u02b0",
-                "n\u1d9c",
-                "g\u1d2e",
                 "u\u1d2e",
-                "o\u1d2c",
-                "\u1e0dw",
-                "n\u1d2c",
-                "\u015b\u02b0w",
-                "\u014bw",
-                "<<\u02d7>>",
-                "ts\u02b0w",
-                "sw",
-                "n\u1d2e",
-                "\u014b\u1d2e",
-                "bw",
+                "o\u1d2e",
+                "\u015b",
                 "o\u1d9c",
-                "tsw",
-                "e\u1d2e",
-                "\u0263w",
-                "\u015bw",
-                "\u0268\u1d2e",
-                "\u014b\u1d2c",
-                "\u1e63\u02b0w",
-                "mw",
-                "\u1e0d",
+                "xw",
                 "u\u1d2c",
-                "u\u1d9c",
-                "jw",
+                "\u1ead",
+                "\u1e63",
+                "<?>",
+                "\u1e63h",
+                "mw",
+                "e\u1d9c",
+                "e\u1d2e",
+                "\u0268\u1d9c",
+                "<<\u017a>>",
+                "m\u1d9c",
+                "\u014bw",
+                "\u015bw",
+                "\u1e6d",
+                "\u1e6dw",
+                "g\u1d2e",
                 "pw",
                 "nw",
-                "\u1e6d",
-                "\u1e63",
-                "\u015b",
-                "\u0294w",
-                "\u1e63h",
-                "\u0144",
-                "\u1e6dw",
-                "zw",
-                "i\u1d9c",
-                "e\u1d9c",
-                "k\u02b0w",
-                "<?>",
+                "<<_>>",
                 "\u00e2\u1d2e",
-                "o\u1d2e",
-                "\u0259\u1d2e",
-                "\u1e63\u02b0",
-                "__",
-                "\u1e6d\u02b0",
-                "\u00e2\u1d9c",
-                "\u1e93",
-                "m\u1d2c",
-                "a\u1d2e",
-                "\u014b\u1d9c",
-                "m\u1d9c",
                 "i\u1d2e",
-                "\u0268\u1d9c",
+                "bw",
+                "\u0268\u1d2e",
+                "o\u1d2c",
+                "n\u02d7",
+                "\u00e2\u1d9c",
+                "\u015b\u02b0w",
+                "\u1e63w",
                 "m\u1d2e",
-                "a\u1d9c",
-                "xw"
+                "\u1e0dw",
+                "\u0294w",
+                "zw",
+                "ts\u02b0w",
+                "m\u1d2c",
+                "u\u1d9c",
+                "<<\u1e93>>",
+                "sw",
+                "tsw",
+                "n\u1d2c",
+                "\u014b\u1d9c",
+                "\u014b\u1d2e",
+                "\u014b\u1d2c",
+                "k\u02b0w",
+                "n\u1d9c",
+                "\u0144",
+                "\u1e0d",
+                "\u1e63\u02b0w",
+                "<<\u02b0>>",
+                "i\u1d9c"
             ],
-            "general_errors": 3492,
+            "general_errors": 1285,
             "replacements": {
+                "+": [
+                    "+"
+                ],
                 "_": [
                     "_"
                 ],
@@ -429,6 +427,9 @@
                 "h": [
                     "h"
                 ],
+                "h/\u00b3": [
+                    "\u00b3"
+                ],
                 "i": [
                     "i"
                 ],
@@ -440,6 +441,9 @@
                 ],
                 "j": [
                     "j"
+                ],
+                "jw/\u0265": [
+                    "\u0265"
                 ],
                 "k": [
                     "k"
@@ -453,11 +457,17 @@
                 "l": [
                     "l"
                 ],
+                "lh/l\u0325": [
+                    "l\u0325"
+                ],
                 "m": [
                     "m"
                 ],
                 "n": [
                     "n"
+                ],
+                "n\u0301z\u0301/\u0235": [
+                    "\u0235"
                 ],
                 "n\u0329": [
                     "n\u0329"
@@ -504,17 +514,23 @@
                 "x": [
                     "x"
                 ],
-                "y": [
-                    "y"
+                "y/j": [
+                    "j"
                 ],
                 "z": [
                     "z"
+                ],
+                "z\u0301/\u0291": [
+                    "\u0291"
                 ],
                 "\u00b2": [
                     "\u00b2"
                 ],
                 "\u014b": [
                     "\u014b"
+                ],
+                "\u014bh/\u014b\u030a": [
+                    "\u014b\u030a"
                 ],
                 "\u0250": [
                     "\u0250"
@@ -537,116 +553,122 @@
                 "\u0263": [
                     "\u0263"
                 ],
+                "\u0265": [
+                    "\u0265"
+                ],
                 "\u0266": [
                     "\u0266"
                 ],
                 "\u0268": [
                     "\u0268"
                 ],
+                "\u0288\u02b0": [
+                    "\u0288\u02b0"
+                ],
                 "\u0294": [
                     "\u0294"
+                ],
+                "\u1d2e/\u00b2": [
+                    "\u00b2"
+                ],
+                "\u1d9c/\u00b3": [
+                    "\u00b3"
                 ]
             },
             "sclass_errors": [
-                "\u1e63w",
-                "\u015b\u02b0",
-                "n\u1d9c",
-                "g\u1d2e",
                 "u\u1d2e",
-                "o\u1d2c",
-                "\u1e0dw",
-                "n\u1d2c",
-                "\u015b\u02b0w",
-                "\u014bw",
-                "<<\u02d7>>",
-                "ts\u02b0w",
-                "sw",
-                "n\u1d2e",
-                "\u014b\u1d2e",
-                "bw",
+                "o\u1d2e",
+                "\u015b",
                 "o\u1d9c",
-                "tsw",
-                "e\u1d2e",
-                "\u0263w",
-                "\u015bw",
-                "\u0268\u1d2e",
-                "\u014b\u1d2c",
-                "\u1e63\u02b0w",
-                "mw",
-                "\u1e0d",
+                "xw",
                 "u\u1d2c",
-                "u\u1d9c",
-                "jw",
+                "\u1ead",
+                "\u1e63",
+                "<?>",
+                "\u1e63h",
+                "mw",
+                "e\u1d9c",
+                "e\u1d2e",
+                "\u0268\u1d9c",
+                "<<\u017a>>",
+                "m\u1d9c",
+                "\u014bw",
+                "\u015bw",
+                "\u1e6d",
+                "\u1e6dw",
+                "g\u1d2e",
                 "pw",
                 "nw",
-                "\u1e6d",
-                "\u1e63",
-                "\u015b",
-                "\u0294w",
-                "\u1e63h",
-                "\u0144",
-                "\u1e6dw",
-                "zw",
-                "i\u1d9c",
-                "e\u1d9c",
-                "k\u02b0w",
-                "<?>",
+                "<<_>>",
                 "\u00e2\u1d2e",
-                "o\u1d2e",
-                "\u0259\u1d2e",
-                "\u1e63\u02b0",
-                "__",
-                "\u1e6d\u02b0",
-                "\u00e2\u1d9c",
-                "\u1e93",
-                "m\u1d2c",
-                "a\u1d2e",
-                "\u014b\u1d9c",
-                "m\u1d9c",
                 "i\u1d2e",
-                "\u0268\u1d9c",
+                "bw",
+                "\u0268\u1d2e",
+                "o\u1d2c",
+                "n\u02d7",
+                "\u00e2\u1d9c",
+                "\u015b\u02b0w",
+                "\u1e63w",
                 "m\u1d2e",
-                "a\u1d9c",
-                "xw"
+                "\u1e0dw",
+                "\u0294w",
+                "zw",
+                "ts\u02b0w",
+                "m\u1d2c",
+                "u\u1d9c",
+                "<<\u1e93>>",
+                "sw",
+                "tsw",
+                "n\u1d2c",
+                "\u014b\u1d9c",
+                "\u014b\u1d2e",
+                "\u014b\u1d2c",
+                "k\u02b0w",
+                "n\u1d9c",
+                "\u0144",
+                "\u1e0d",
+                "\u1e63\u02b0w",
+                "<<\u02b0>>",
+                "i\u1d9c"
             ],
             "segments": {
-                "<<\u02d7>>": 1,
-                "<?>": 634,
-                "_": 262,
-                "__": 1,
-                "a": 335,
-                "a\u1d2e": 26,
-                "a\u1d9c": 32,
+                "+": 54,
+                "<<_>>": 8,
+                "<<\u017a>>": 106,
+                "<<\u02b0>>": 59,
+                "<<\u1e93>>": 25,
+                "<?>": 17,
+                "a": 393,
                 "b": 160,
                 "bw": 3,
                 "d": 309,
-                "e": 649,
-                "e\u1d2e": 49,
-                "e\u1d9c": 25,
+                "e": 701,
+                "e\u1d2e": 13,
+                "e\u1d9c": 9,
                 "g": 93,
                 "g\u1d2e": 1,
-                "i": 838,
+                "i": 1138,
                 "i\u02d0": 1,
-                "i\u1d2e": 92,
-                "i\u1d9c": 246,
+                "i\u1d2e": 15,
+                "i\u1d9c": 23,
                 "j": 1553,
-                "jw": 419,
+                "jw/\u0265": 41,
                 "k": 757,
                 "k\u02b0": 145,
                 "k\u02b0w": 6,
                 "k\u02b7": 19,
                 "l": 243,
-                "m": 305,
+                "m": 407,
                 "mw": 9,
                 "m\u1d2c": 2,
-                "m\u1d2e": 75,
-                "m\u1d9c": 37,
-                "n": 363,
+                "m\u1d2e": 8,
+                "m\u1d9c": 2,
+                "n": 669,
                 "nw": 1,
+                "n\u02d7": 1,
                 "n\u0329": 27,
                 "n\u1d2c": 1,
-                "n\u1d2e": 148,
-                "n\u1d9c": 170,
+                "n\u1d9c": 11,
                 "o": 187,
                 "o\u1d2c": 1,
                 "o\u1d2e": 77,
@@ -662,99 +684,99 @@
                 "ts\u02b0": 79,
                 "ts\u02b0w": 1,
                 "t\u02b0": 80,
-                "u": 926,
+                "u": 1229,
                 "u\u1d2c": 1,
-                "u\u1d2e": 158,
-                "u\u1d9c": 163,
-                "w": 68,
+                "u\u1d2e": 10,
+                "u\u1d9c": 8,
+                "w": 93,
                 "x": 106,
                 "xw": 8,
                 "z": 131,
                 "zw": 5,
                 "\u00b2": 1,
-                "\u00e2": 451,
-                "\u00e2\u1d2e": 27,
+                "\u00e2": 477,
+                "\u00e2\u1d2e": 1,
                 "\u00e2\u1d9c": 19,
                 "\u00e4": 403,
                 "\u0103": 70,
-                "\u0144": 81,
-                "\u014b": 483,
+                "\u0144": 79,
+                "\u0144\u017a/\u0235": 2,
+                "\u014b": 708,
                 "\u014bw": 2,
                 "\u014b\u1d2c": 5,
-                "\u014b\u1d2e": 113,
-                "\u014b\u1d9c": 116,
-                "\u015b": 205,
+                "\u014b\u1d2e": 3,
+                "\u014b\u1d9c": 1,
+                "\u015b": 241,
                 "\u015bw": 2,
-                "\u015b\u02b0": 36,
                 "\u015b\u02b0w": 1,
+                "\u017a/\u0291": 61,
                 "\u0250": 175,
                 "\u0251": 1,
-                "\u0259": 592,
-                "\u0259\u1d2e": 1,
+                "\u0259": 593,
                 "\u025b": 38,
-                "\u0263": 163,
-                "\u0263w": 25,
-                "\u0268": 36,
-                "\u0268\u1d2e": 39,
-                "\u0268\u1d9c": 31,
+                "\u0263": 188,
+                "\u0265": 378,
+                "\u0268": 103,
+                "\u0268\u1d2e": 2,
+                "\u0268\u1d9c": 1,
+                "\u0288\u02b0": 25,
                 "\u0294": 161,
                 "\u0294w": 5,
+                "\u1d2e/\u00b2": 676,
+                "\u1d9c/\u00b3": 765,
                 "\u1e01": 39,
                 "\u1e0d": 89,
                 "\u1e0dw": 3,
-                "\u1e63": 82,
+                "\u1e63": 105,
                 "\u1e63h": 1,
                 "\u1e63w": 3,
-                "\u1e63\u02b0": 23,
                 "\u1e63\u02b0w": 2,
                 "\u1e6d": 62,
                 "\u1e6dw": 1,
-                "\u1e6d\u02b0": 25,
-                "\u1e93": 25
+                "\u1ead": 150
             }
         },
         "OldChinese": {
             "bipa_errors": [
-                "n\u1d2c\u01c3",
-                "\u014bh",
-                "\u00eas",
                 "hw",
-                "\u00eah",
-                "\u00fbh",
                 "\u00e2s",
-                "\u00f4s",
-                "a\u1d2c",
-                "\u014bw",
-                "sw",
-                "khw",
-                "e\u1d2e",
-                "ks",
-                "\u014b\u1d2c",
                 "\u00f4h",
-                "ms",
-                "\u00e2h",
                 "\u1e63",
-                "\u00fbs",
-                "\u0294w",
-                "\u015b",
-                "zw",
-                "rw",
-                "lh",
-                "gw",
-                "k\u02b0w",
                 "<?>",
-                "ps",
-                "tsh",
-                "ns",
+                "\u00fbh",
+                "ks",
+                "n\u1d2c\u01c3",
+                "e\u1d2e",
+                "\u014bw",
+                "nh",
+                "<<_>>",
                 "\u00eeh",
                 "rh",
-                "i\u1d2e",
+                "ps",
                 "\u00ees",
-                "nh",
-                "n\u1d2c"
+                "\u00fbs",
+                "\u0294w",
+                "zw",
+                "\u00eas",
+                "sw",
+                "rw",
+                "ms",
+                "\u00eah",
+                "n\u1d2c",
+                "khw",
+                "\u014bh",
+                "\u00f4s",
+                "\u014b\u1d2c",
+                "lh",
+                "k\u02b0w",
+                "a\u1d2c",
+                "\u00e2h"
             ],
-            "general_errors": 1148,
+            "general_errors": 242,
             "replacements": {
+                "+": [
+                    "+"
+                ],
                 "_": [
                     "_"
                 ],
@@ -794,6 +816,9 @@
                 "h": [
                     "h"
                 ],
+                "h/\u00b3": [
+                    "\u00b3"
+                ],
                 "i": [
                     "i"
                 ],
@@ -805,6 +830,9 @@
                 ],
                 "j": [
                     "j"
+                ],
+                "jw/\u0265": [
+                    "\u0265"
                 ],
                 "k": [
                     "k"
@@ -818,11 +846,17 @@
                 "l": [
                     "l"
                 ],
+                "lh/l\u0325": [
+                    "l\u0325"
+                ],
                 "m": [
                     "m"
                 ],
                 "n": [
                     "n"
+                ],
+                "n\u0301z\u0301/\u0235": [
+                    "\u0235"
                 ],
                 "n\u0329": [
                     "n\u0329"
@@ -869,17 +903,23 @@
                 "x": [
                     "x"
                 ],
-                "y": [
-                    "y"
+                "y/j": [
+                    "j"
                 ],
                 "z": [
                     "z"
+                ],
+                "z\u0301/\u0291": [
+                    "\u0291"
                 ],
                 "\u00b2": [
                     "\u00b2"
                 ],
                 "\u014b": [
                     "\u014b"
+                ],
+                "\u014bh/\u014b\u030a": [
+                    "\u014b\u030a"
                 ],
                 "\u0250": [
                     "\u0250"
@@ -902,70 +942,79 @@
                 "\u0263": [
                     "\u0263"
                 ],
+                "\u0265": [
+                    "\u0265"
+                ],
                 "\u0266": [
                     "\u0266"
                 ],
                 "\u0268": [
                     "\u0268"
                 ],
+                "\u0288\u02b0": [
+                    "\u0288\u02b0"
+                ],
                 "\u0294": [
                     "\u0294"
+                ],
+                "\u1d2e/\u00b2": [
+                    "\u00b2"
+                ],
+                "\u1d9c/\u00b3": [
+                    "\u00b3"
                 ]
             },
             "sclass_errors": [
-                "n\u1d2c\u01c3",
-                "\u014bh",
-                "\u00eas",
                 "hw",
-                "\u00eah",
-                "\u00fbh",
                 "\u00e2s",
-                "\u00f4s",
-                "a\u1d2c",
-                "\u014bw",
-                "sw",
-                "khw",
-                "e\u1d2e",
-                "ks",
-                "\u014b\u1d2c",
                 "\u00f4h",
-                "ms",
-                "\u00e2h",
                 "\u1e63",
-                "\u00fbs",
-                "\u0294w",
-                "\u015b",
-                "zw",
-                "rw",
-                "lh",
-                "gw",
-                "k\u02b0w",
                 "<?>",
-                "ps",
-                "tsh",
-                "ns",
+                "\u00fbh",
+                "ks",
+                "n\u1d2c\u01c3",
+                "e\u1d2e",
+                "\u014bw",
+                "nh",
+                "<<_>>",
                 "\u00eeh",
                 "rh",
-                "i\u1d2e",
+                "ps",
                 "\u00ees",
-                "nh",
-                "n\u1d2c"
+                "\u00fbs",
+                "\u0294w",
+                "zw",
+                "\u00eas",
+                "sw",
+                "rw",
+                "ms",
+                "\u00eah",
+                "n\u1d2c",
+                "khw",
+                "\u014bh",
+                "\u00f4s",
+                "\u014b\u1d2c",
+                "lh",
+                "k\u02b0w",
+                "a\u1d2c",
+                "\u00e2h"
             ],
             "segments": {
-                "<?>": 412,
-                "_": 318,
+                "+": 162,
+                "<<_>>": 8,
+                "<?>": 28,
+                "_": 2,
                 "a": 781,
                 "a\u1d2c": 1,
                 "b": 147,
                 "d": 342,
                 "e": 179,
                 "e\u1d2e": 1,
-                "g": 204,
-                "gw": 30,
+                "g": 234,
                 "h": 343,
+                "h/\u00b3": 30,
                 "hw": 17,
-                "i": 593,
-                "i\u1d2e": 1,
+                "i": 592,
                 "j": 47,
                 "k": 730,
                 "khw": 26,
@@ -974,12 +1023,12 @@
                 "k\u02b0w": 1,
                 "k\u02b7": 49,
                 "l": 277,
-                "lh": 95,
-                "m": 432,
-                "ms": 35,
-                "n": 588,
+                "lh": 3,
+                "lh/l\u0325": 92,
+                "m": 465,
+                "ms": 2,
+                "n": 748,
                 "nh": 24,
-                "ns": 162,
                 "n\u1d2c": 1,
                 "n\u1d2c\u01c3": 1,
                 "o": 250,
@@ -989,19 +1038,18 @@
                 "r": 858,
                 "rh": 11,
                 "rw": 1,
-                "s": 293,
+                "s": 488,
                 "sw": 5,
-                "t": 490,
+                "t": 488,
                 "ts": 212,
-                "tsh": 88,
-                "ts\u02b0": 6,
+                "ts\u02b0": 94,
                 "t\u02b0": 55,
                 "u": 442,
-                "w": 124,
+                "w": 154,
                 "z": 111,
                 "zw": 1,
-                "\u00e2": 586,
-                "\u00e2h": 31,
+                "\u00e2": 616,
+                "\u00e2h": 1,
                 "\u00e2s": 12,
                 "\u00ea": 216,
                 "\u00eah": 13,
@@ -1017,15 +1065,16 @@
                 "\u00fbs": 2,
                 "\u0101": 1,
                 "\u014b": 588,
-                "\u014bh": 104,
+                "\u014bh": 12,
+                "\u014bh/\u014b\u030a": 92,
                 "\u014bw": 3,
                 "\u014b\u1d2c": 2,
-                "\u015b": 2,
                 "\u0259": 449,
                 "\u0259\u0302": 232,
                 "\u0266": 1,
                 "\u0294": 899,
                 "\u0294w": 17,
+                "\u1d2e/\u00b2": 1,
                 "\u1e63": 1
             }
         }
@@ -1033,109 +1082,88 @@
     "stats": {
         "bad_words": [
             [
-                "LateHanChinese-11-ObstructhinderLie-1",
+                "LateHanChinese-285-ColdYiZhoushu-1",
                 "LateHanChinese",
-                "11-ObstructhinderLie",
-                "\u014b\u0259\u1d9c",
-                "\u014b <s> \u0259\u1d9c </s>"
+                "285-ColdYiZhoushu",
+                "t\u1e63\u02b0\u0251\u014b",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u0251 \u014b"
             ],
             [
-                "LateHanChinese-13-TopushdownwiththehandSW-1",
+                "LateHanChinese-296-Begoingtothesidebeslantingdeviating-1",
                 "LateHanChinese",
-                "13-TopushdownwiththehandSW",
-                "\u0294\u0251n\u1d9c",
-                "\u0294 \u0251 <s> n\u1d9c </s>"
+                "296-Begoingtothesidebeslantingdeviating",
+                "t\u1e63\u0268k",
+                "t <s> \u1e63 </s> \u0268 k"
             ],
             [
-                "LateHanChinese-17-HoldinthemouthputinthemouthGY-1",
+                "LateHanChinese-297-BeslantingobliqueZhouli-1",
                 "LateHanChinese",
-                "17-HoldinthemouthputinthemouthGY",
-                "\u0294\u0259m\u1d2e",
-                "\u0294 \u0259 <s> m\u1d2e </s>"
+                "297-BeslantingobliqueZhouli",
+                "t\u1e63\u0268k",
+                "t <s> \u1e63 </s> \u0268 k"
             ],
             [
-                "LateHanChinese-18-PentupZhuang-1",
+                "LateHanChinese-298-TofathommeasuredepthShi-1",
                 "LateHanChinese",
-                "18-PentupZhuang",
-                "\u0294\u0268m\u1d9c",
-                "\u0294 \u0268 <s> m\u1d9c </s>"
+                "298-TofathommeasuredepthShi",
+                "t\u1e63\u02b0\u0268k",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u0268 k"
             ],
             [
-                "LateHanChinese-22-RiverbankShi-1",
+                "LateHanChinese-299-LatrineZuo-1",
                 "LateHanChinese",
-                "22-RiverbankShi",
-                "\u014b\u0251n\u1d9c",
-                "\u014b \u0251 <s> n\u1d9c </s>"
+                "299-LatrineZuo",
+                "t\u1e63\u02b0i\u0259\u1d9c",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> i \u0259 \u1d9c/\u00b3"
             ],
             [
-                "LateHanChinese-23-CliffBISW-1",
+                "LateHanChinese-300-NA-1",
                 "LateHanChinese",
-                "23-CliffBISW",
-                "h\u0251n\u1d9c",
-                "h \u0251 <s> n\u1d9c </s>"
+                "300-NA",
+                "t\u1e63\u02b0\u025bk",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u025b k"
             ],
             [
-                "LateHanChinese-24-RiverbankShi-1",
+                "LateHanChinese-301-TospearfishZhouli-1",
                 "LateHanChinese",
-                "24-RiverbankShi",
-                "h\u0251\u1d2e",
-                "h <s> \u0251\u1d2e </s>"
+                "301-TospearfishZhouli",
+                "t\u1e63\u02b0ak",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> a k"
             ],
             [
-                "LateHanChinese-25-AdeepblackSW-1",
+                "LateHanChinese-304-AforkSW-1",
                 "LateHanChinese",
-                "25-AdeepblackSW",
-                "\u0294\u0259m\u1d2e",
-                "\u0294 \u0259 <s> m\u1d2e </s>"
+                "304-AforkSW",
+                "t\u1e63\u02b0\u025b",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u025b"
             ],
             [
-                "LateHanChinese-26-BedarkGuoyualsoreadQYamLiMand-1",
+                "LateHanChinese-305-ForkedbranchofatreeusedforspearingfishSWZhuang-1",
                 "LateHanChinese",
-                "26-BedarkGuoyualsoreadQYamLiMand",
-                "\u0294\u0259m\u1d9c",
-                "\u0294 \u0259 <s> m\u1d9c </s>"
+                "305-ForkedbranchofatreeusedforspearingfishSWZhuang",
+                "t\u1e63\u02b0\u025b\u1d9c",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> <s> \u025b\u1d9c </s>"
             ],
             [
-                "LateHanChinese-29-AsmallmouthedlargebelliedearthenjarforfetchingwaterLunheng-1",
+                "LateHanChinese-306-DivergencedifferencedistinctionShu-1",
                 "LateHanChinese",
-                "29-AsmallmouthedlargebelliedearthenjarforfetchingwaterLunheng",
-                "\u0294\u0251\u014b\u1d9c",
-                "\u0294 \u0251 <s> \u014b\u1d9c </s>"
+                "306-DivergencedifferencedistinctionShu",
+                "t\u1e63\u02b0ai",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> a i"
             ],
             [
-                "LateHanChinese-33-InsideofarealmShi-1",
+                "LateHanChinese-307-UnevenirregularSWKarlgren195616-1",
                 "LateHanChinese",
-                "33-InsideofarealmShi",
-                "\u0294ou\u1d9c",
-                "\u0294 o <s> u\u1d9c </s>"
+                "307-UnevenirregularSWKarlgren195616",
+                "t\u1e63\u02b0\u0251i",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u0251 i"
             ],
             [
-                "LateHanChinese-34-ProudarrogantShu-1",
+                "LateHanChinese-308-GraduatedofdifferentlengthShi-1",
                 "LateHanChinese",
-                "34-ProudarrogantShu",
-                "\u014b\u0251u\u1d9c",
-                "\u014b \u0251 <s> u\u1d9c </s>"
-            ],
-            [
-                "LateHanChinese-39-ScarJY-1",
-                "LateHanChinese",
-                "39-ScarJY",
-                "pa_?",
-                "p a _ <s> <?> </s>"
-            ],
-            [
-                "LateHanChinese-51-AhandfulGuoyu-1",
-                "LateHanChinese",
-                "51-AhandfulGuoyu",
-                "pa\u1d2e",
-                "p <s> a\u1d2e </s>"
-            ],
-            [
-                "LateHanChinese-53-TostopceaseworketctrLun-1",
-                "LateHanChinese",
-                "53-TostopceaseworketctrLun",
-                "bai\u1d2e",
-                "b a <s> i\u1d2e </s>"
+                "308-GraduatedofdifferentlengthShi",
+                "t\u1e63\u02b0\u0251i-\u1e0d\u0251i",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u0251 i + <s> \u1e0d </s> \u0251 i"
             ],
             [
                 "LateHanChinese-59-ToopenGuiguzi-1",
@@ -1152,179 +1180,242 @@
                 "b <s> \u025b\u1d9c </s>"
             ],
             [
-                "LateHanChinese-67-BoardplankShi-1",
-                "LateHanChinese",
-                "67-BoardplankShi",
-                "pan\u1d2e",
-                "p a <s> n\u1d2e </s>"
-            ],
-            [
-                "LateHanChinese-68-GreatofdemeanordomaingodShi-1",
-                "LateHanChinese",
-                "68-GreatofdemeanordomaingodShi",
-                "pan\u1d2e",
-                "p a <s> n\u1d2e </s>"
-            ],
-            [
-                "LateHanChinese-69-HalfYi-1",
-                "LateHanChinese",
-                "69-HalfYi",
-                "p\u0251n\u1d9c",
-                "p \u0251 <s> n\u1d9c </s>"
-            ],
-            [
-                "LateHanChinese-70-TocleaveZhouli-1",
-                "LateHanChinese",
-                "70-TocleaveZhouli",
-                "p\u02b0\u0251n\u1d9c",
-                "p\u02b0 \u0251 <s> n\u1d9c </s>"
-            ],
-            [
-                "LateHanChinese-71-BankbetweenfieldsseparatefromZuo-1",
-                "LateHanChinese",
-                "71-BankbetweenfieldsseparatefromZuo",
-                "b\u0251n\u1d9c",
-                "b \u0251 <s> n\u1d9c </s>"
-            ],
-            [
-                "LateHanChinese-73-SectionsofafruitSW-1",
-                "LateHanChinese",
-                "73-SectionsofafruitSW",
-                "b\u025bn\u1d9c",
-                "b \u025b <s> n\u1d9c </s>"
-            ],
-            [
-                "LateHanChinese-74-DivideZhouli-1",
-                "LateHanChinese",
-                "74-DivideZhouli",
-                "b\u0268an\u1d2e",
-                "b \u0268 a <s> n\u1d2e </s>"
-            ],
-            [
-                "LateHanChinese-75-TodealwithhandlemanageBIZuo-1",
-                "LateHanChinese",
-                "75-TodealwithhandlemanageBIZuo",
-                "b\u025bn\u1d9c",
-                "b \u025b <s> n\u1d9c </s>"
-            ],
-            [
                 "LateHanChinese-76-Petalsofaflowerisalateword14thcentAD-1",
                 "LateHanChinese",
                 "76-Petalsofaflowerisalateword14thcentAD",
                 "b\u025bn\u1d9c_?",
-                "b \u025b <s> n\u1d9c </s> _ <s> <?> </s>"
+                "b \u025b <s> n\u1d9c </s>"
             ],
             [
-                "LateHanChinese-78-BoardJinshu-1",
-                "LateHanChinese",
-                "78-BoardJinshu",
-                "p\u0251\u014b\u1d2e",
-                "p \u0251 <s> \u014b\u1d2e </s>"
+                "MiddleChinese-100-AvoidShiMeng-1",
+                "MiddleChinese",
+                "100-AvoidShiMeng",
+                "bjie\u1d9c_4",
+                "b j i <s> e\u1d9c </s>"
             ],
             [
-                "LateHanChinese-80-ClubstickPostHanWeishu-1",
-                "LateHanChinese",
-                "80-ClubstickPostHanWeishu",
-                "b\u0254\u014b\u1d2e",
-                "b \u0254 <s> \u014b\u1d2e </s>"
+                "MiddleChinese-101-CupLiMeng-1",
+                "MiddleChinese",
+                "101-CupLiMeng",
+                "pu\u1eadi",
+                "p u <s> \u1ead </s> i"
             ],
             [
-                "LateHanChinese-86-TotakecareofababybywrappingitinswaddlingclothMengpeopleShu-1",
-                "LateHanChinese",
-                "86-TotakecareofababybywrappingitinswaddlingclothMengpeopleShu",
-                "pou\u1d2e",
-                "p o <s> u\u1d2e </s>"
+                "MiddleChinese-105-FillupobstructaholeYi-1",
+                "MiddleChinese",
+                "105-FillupobstructaholeYi",
+                "bji\u1d2e_3",
+                "b j <s> i\u1d2e </s>"
             ],
             [
-                "LateHanChinese-87-NA-1",
-                "LateHanChinese",
-                "87-NA",
-                "pou\u1d2e",
-                "p o <s> u\u1d2e </s>"
+                "MiddleChinese-107-DoubleShi-1",
+                "MiddleChinese",
+                "107-DoubleShi",
+                "bu\u1eadi\u1d2e",
+                "b u <s> \u1ead </s> i \u1d2e/\u00b2"
             ],
             [
-                "LateHanChinese-88-TheclothinwhichchildrenarecarriedonthebackLushih-1",
-                "LateHanChinese",
-                "88-TheclothinwhichchildrenarecarriedonthebackLushih",
-                "pou\u1d2e",
-                "p o <s> u\u1d2e </s>"
-            ],
-            [
-                "LateHanChinese-89-ToeattothefullsatiatedShi-1",
-                "LateHanChinese",
-                "89-ToeattothefullsatiatedShi",
-                "p\u0254u\u1d2e",
-                "p \u0254 <s> u\u1d2e </s>"
-            ],
-            [
-                "LateHanChinese-90-BeprecioustreasureBIShi-1",
-                "LateHanChinese",
-                "90-BeprecioustreasureBIShi",
-                "pou\u1d2e",
-                "p o <s> u\u1d2e </s>"
-            ],
-            [
-                "LateHanChinese-91-CarryinthearmsShi-1",
-                "LateHanChinese",
-                "91-CarryinthearmsShi",
-                "bou\u1d2e",
-                "b o <s> u\u1d2e </s>"
+                "MiddleChinese-108-ToaugmentdoubleZuo-1",
+                "MiddleChinese",
+                "108-ToaugmentdoubleZuo",
+                "bu\u1eadi",
+                "b u <s> \u1ead </s> i"
             ],
             [
                 "MiddleChinese-11-ObstructhinderLie-1",
                 "MiddleChinese",
                 "11-ObstructhinderLie",
                 "\u014b\u1eadi\u1d9c",
-                "\u014b <s> <?> </s> <s> i\u1d9c </s>"
+                "\u014b <s> \u1ead </s> i \u1d9c/\u00b3"
             ],
             [
-                "MiddleChinese-13-TopushdownwiththehandSW-1",
+                "MiddleChinese-110-ReadycompleteperfectShi-1",
                 "MiddleChinese",
-                "13-TopushdownwiththehandSW",
-                "\u0294\u00e2n\u1d9c",
-                "\u0294 \u00e2 <s> n\u1d9c </s>"
+                "110-ReadycompleteperfectShi",
+                "bji\u1d9c_3",
+                "b j <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-113-AcloakZuogeneralderivation35-1",
+                "MiddleChinese",
+                "113-AcloakZuogeneralderivation35",
+                "p\u02b0jie\u1d9c_3",
+                "p\u02b0 j i <s> e\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-131-NoseOBMeng-1",
+                "MiddleChinese",
+                "131-NoseOBMeng",
+                "bi\u1d9c_4",
+                "b <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-132-TosmellinKejiaandMinPMinbiJianoupiXiamenpibi-1",
+                "MiddleChinese",
+                "132-TosmellinKejiaandMinPMinbiJianoupiXiamenpibi",
+                "bi\u1d9c_4",
+                "b <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-133-TobeassociatingShi-1",
+                "MiddleChinese",
+                "133-TobeassociatingShi",
+                "pi\u1d2e_4",
+                "p <s> i\u1d2e </s>"
+            ],
+            [
+                "MiddleChinese-134-ToputtogethermatchassembleShi-1",
+                "MiddleChinese",
+                "134-ToputtogethermatchassembleShi",
+                "pi\u1d9c_4",
+                "p <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-135-TojoinShu-1",
+                "MiddleChinese",
+                "135-TojoinShu",
+                "bi\u1d9c_4",
+                "b <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-138-UnripegrainchaffZuo-1",
+                "MiddleChinese",
+                "138-UnripegrainchaffZuo",
+                "pi\u1d2e_4",
+                "p <s> i\u1d2e </s>"
+            ],
+            [
+                "MiddleChinese-139-SoreontheheadZhouli-1",
+                "MiddleChinese",
+                "139-SoreontheheadZhouli",
+                "p\u02b0ji\u1d2e_3",
+                "p\u02b0 j <s> i\u1d2e </s>"
+            ],
+            [
+                "MiddleChinese-142-BorderoutskirtsZuo-1",
+                "MiddleChinese",
+                "142-BorderoutskirtsZuo",
+                "pji\u1d2e_3",
+                "p j <s> i\u1d2e </s>"
+            ],
+            [
+                "MiddleChinese-143-TomakeletsomeonedosomethingcausedirectprovideShiShu-1",
+                "MiddleChinese",
+                "143-TomakeletsomeonedosomethingcausedirectprovideShiShu",
+                "pjie\u1d2e_4",
+                "p j i <s> e\u1d2e </s>"
+            ],
+            [
+                "MiddleChinese-145-AfinecombGY-1",
+                "MiddleChinese",
+                "145-AfinecombGY",
+                "bji\u1d9c_4",
+                "b j <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-147-BubbleupaswaterfromaspringShiisavocalicvariantoffei1151-1",
+                "MiddleChinese",
+                "147-BubbleupaswaterfromaspringShiisavocalicvariantoffei1151",
+                "pji\u1d9c_3",
+                "p j <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-151-TogiveShi-1",
+                "MiddleChinese",
+                "151-TogiveShi",
+                "pi\u1d9c_4",
+                "p <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-153-WornoutShi-1",
+                "MiddleChinese",
+                "153-WornoutShi",
+                "bji\u00e4i\u1d9c_4",
+                "b j i \u00e4 <s> i\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-155-ToscreenkeepinignorancedeceiveZuo-1",
+                "MiddleChinese",
+                "155-ToscreenkeepinignorancedeceiveZuo",
+                "pji\u00e4i\u1d9c_4",
+                "p j i \u00e4 <s> i\u1d9c </s>"
             ],
             [
                 "MiddleChinese-16-DumbsilentMo-1",
                 "MiddleChinese",
                 "16-DumbsilentMo",
                 "\u0294\u1eadm",
-                "\u0294 <s> <?> </s> m"
+                "\u0294 <s> \u1ead </s> m"
+            ],
+            [
+                "MiddleChinese-168-TocloseshutShi-1",
+                "MiddleChinese",
+                "168-TocloseshutShi",
+                "pji\u1d9c_3",
+                "p j <s> i\u1d9c </s>"
             ],
             [
                 "MiddleChinese-17-HoldinthemouthputinthemouthGY-1",
                 "MiddleChinese",
                 "17-HoldinthemouthputinthemouthGY",
                 "\u0294\u1eadm\u1d2e",
-                "\u0294 <s> <?> </s> <s> m\u1d2e </s>"
+                "\u0294 <s> \u1ead </s> m \u1d2e/\u00b2"
             ],
             [
-                "MiddleChinese-18-PentupZhuang-1",
+                "MiddleChinese-178-BatanimalSW-1",
                 "MiddleChinese",
-                "18-PentupZhuang",
-                "\u0294j\u0259m\u1d9c",
-                "\u0294 j \u0259 <s> m\u1d9c </s>"
+                "178-BatanimalSW",
+                "pien\u02d7pjuk",
+                "p i e <s> n\u02d7 </s> p j u k"
             ],
             [
-                "MiddleChinese-2-NA-1",
+                "MiddleChinese-186-TodiminishweakenShiMand-1",
                 "MiddleChinese",
-                "2-NA",
-                "\u0294jwo",
-                "\u0294 <s> jw </s> o"
+                "186-TodiminishweakenShiMand",
+                "pj\u00e4m\u1d2e_3",
+                "p j \u00e4 <s> m\u1d2e </s>"
             ],
             [
-                "MiddleChinese-22-RiverbankShi-1",
+                "MiddleChinese-187-ToloweracoffinintothegraveburyLi-1",
                 "MiddleChinese",
-                "22-RiverbankShi",
-                "\u014b\u00e2n\u1d9c",
-                "\u014b \u00e2 <s> n\u1d9c </s>"
+                "187-ToloweracoffinintothegraveburyLi",
+                "pj\u00e4m\u1d9c_3",
+                "p j \u00e4 <s> m\u1d9c </s>"
             ],
             [
-                "MiddleChinese-23-CliffBISW-1",
+                "MiddleChinese-188-AcapsymbolofmanhoodShi-1",
                 "MiddleChinese",
-                "23-CliffBISW",
-                "x\u00e2n\u1d9c",
-                "x \u00e2 <s> n\u1d9c </s>"
+                "188-AcapsymbolofmanhoodShi",
+                "bj\u00e4n\u1d9c_3",
+                "b j \u00e4 <s> n\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-190-ConvenientLi-1",
+                "MiddleChinese",
+                "190-ConvenientLi",
+                "bji\u00e4n\u1d9c_4",
+                "b j i \u00e4 <s> n\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-191-TochangeBIShu-1",
+                "MiddleChinese",
+                "191-TochangeBIShu",
+                "pj\u00e4n\u1d9c_3",
+                "p j \u00e4 <s> n\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-197-BranchZhuang-1",
+                "MiddleChinese",
+                "197-BranchZhuang",
+                "pji\u00e4u\u1d9c_4",
+                "p j i \u00e4 <s> u\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-202-ToreceiveasaguesttreatasaguestwhichinvolvespresentationofgiftsOBShiSWputthedeadinacoffintobetakenoutandburiedwheretheancestralspiritsguestsmeethimielit-1",
+                "MiddleChinese",
+                "202-ToreceiveasaguesttreatasaguestwhichinvolvespresentationofgiftsOBShiSWputthedeadinacoffintobetakenoutandburiedwheretheancestralspiritsguestsmeethimielit",
+                "pjien\u1d9c_4",
+                "p j i e <s> n\u1d9c </s>"
             ],
             [
                 "MiddleChinese-24-RiverbankShi-1",
@@ -1334,46 +1425,221 @@
                 "x u <s> o\u1d2e </s>"
             ],
             [
+                "MiddleChinese-248-TowinnowZhuang-1",
+                "MiddleChinese",
+                "248-TowinnowZhuang",
+                "pu\u00e2\u1d9c",
+                "p u <s> \u00e2\u1d9c </s>"
+            ],
+            [
                 "MiddleChinese-25-AdeepblackSW-1",
                 "MiddleChinese",
                 "25-AdeepblackSW",
                 "\u0294\u1eadm\u1d2e",
-                "\u0294 <s> <?> </s> <s> m\u1d2e </s>"
+                "\u0294 <s> \u1ead </s> m \u1d2e/\u00b2"
+            ],
+            [
+                "MiddleChinese-250-TospreadsowpublishShi-1",
+                "MiddleChinese",
+                "250-TospreadsowpublishShi",
+                "pu\u00e2\u1d9c",
+                "p u <s> \u00e2\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-258-TomendrepairassistShi-1",
+                "MiddleChinese",
+                "258-TomendrepairassistShi",
+                "puo\u1d2e",
+                "p u <s> o\u1d2e </s>"
             ],
             [
                 "MiddleChinese-26-BedarkGuoyualsoreadQYamLiMand-1",
                 "MiddleChinese",
                 "26-BedarkGuoyualsoreadQYamLiMand",
                 "\u0294\u1eadm\u1d9c",
-                "\u0294 <s> <?> </s> <s> m\u1d9c </s>"
+                "\u0294 <s> \u1ead </s> m \u1d9c/\u00b3"
             ],
             [
-                "MiddleChinese-29-AsmallmouthedlargebelliedearthenjarforfetchingwaterLunheng-1",
+                "MiddleChinese-262-ClothBIShi-1",
                 "MiddleChinese",
-                "29-AsmallmouthedlargebelliedearthenjarforfetchingwaterLunheng",
-                "\u0294\u00e2\u014b\u1d9c",
-                "\u0294 \u00e2 <s> \u014b\u1d9c </s>"
+                "262-ClothBIShi",
+                "puo\u1d9c",
+                "p u <s> o\u1d9c </s>"
             ],
             [
-                "MiddleChinese-3-YoungerbrotherJinDynNorman1988113-1",
+                "MiddleChinese-263-TospreadoutamatLi-1",
                 "MiddleChinese",
-                "3-YoungerbrotherJinDynNorman1988113",
-                "\u0294\u00e2-nuo",
-                "\u0294 \u00e2 <s> <?> </s> n u o"
+                "263-TospreadoutamatLi",
+                "puo\u1d9c",
+                "p u <s> o\u1d9c </s>"
             ],
             [
-                "MiddleChinese-33-InsideofarealmShi-1",
+                "MiddleChinese-265-BevastwideofmandateinjurywallsplainShi-1",
                 "MiddleChinese",
-                "33-InsideofarealmShi",
-                "\u0294\u00e2u\u1d9c",
-                "\u0294 \u00e2 <s> u\u1d9c </s>"
+                "265-BevastwideofmandateinjurywallsplainShi",
+                "p\u02b0uo\u1d2e",
+                "p\u02b0 u <s> o\u1d2e </s>"
             ],
             [
-                "MiddleChinese-34-ProudarrogantShu-1",
+                "MiddleChinese-268-TowalkstepstrideoftwolegscourseOBShi-1",
                 "MiddleChinese",
-                "34-ProudarrogantShu",
-                "ng\u00e2u\u1d9c",
-                "n g \u00e2 <s> u\u1d9c </s>"
+                "268-TowalkstepstrideoftwolegscourseOBShi",
+                "buo\u1d9c",
+                "b u <s> o\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-269-HavefoodinthemouthZhuang-1",
+                "MiddleChinese",
+                "269-HavefoodinthemouthZhuang",
+                "buo\u1d9c",
+                "b u <s> o\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-271-TogivetoeatJYUngerHaoku35198634-1",
+                "MiddleChinese",
+                "271-TogivetoeatJYUngerHaoku35198634",
+                "puo\u1d9c",
+                "p u <s> o\u1d9c </s>"
+            ],
+            [
+                "MiddleChinese-273-BewellendowedShi-1",
+                "MiddleChinese",
+                "273-BewellendowedShi",
+                "dz\u1eadi",
+                "d z <s> \u1ead </s> i"
+            ],
+            [
+                "MiddleChinese-274-OnlywhenattimeHouHanshu-1",
+                "MiddleChinese",
+                "274-OnlywhenattimeHouHanshu",
+                "dz\u1eadi",
+                "d z <s> \u1ead </s> i"
+            ],
+            [
+                "MiddleChinese-275-TogatherpluckShi-1",
+                "MiddleChinese",
+                "275-TogatherpluckShi",
+                "ts\u02b0\u1eadi\u1d2e",
+                "ts\u02b0 <s> \u1ead </s> i \u1d2e/\u00b2"
+            ],
+            [
+                "MiddleChinese-276-VegetablesedibleplantsShi-1",
+                "MiddleChinese",
+                "276-VegetablesedibleplantsShi",
+                "ts\u02b0\u1eadi\u1d9c",
+                "ts\u02b0 <s> \u1ead </s> i \u1d9c/\u00b3"
+            ],
+            [
+                "MiddleChinese-277-ColorpigmentbecolorfulShi-1",
+                "MiddleChinese",
+                "277-ColorpigmentbecolorfulShi",
+                "ts\u02b0\u1eadi\u1d2e",
+                "ts\u02b0 <s> \u1ead </s> i \u1d2e/\u00b2"
+            ],
+            [
+                "MiddleChinese-281-SilkwormShi-1",
+                "MiddleChinese",
+                "281-SilkwormShi",
+                "dz\u1eadm",
+                "d z <s> \u1ead </s> m"
+            ],
+            [
+                "MiddleChinese-282-HaveinthemouthtrhaveatasteinthemouthHuainanisperhapsderivedfroman-1",
+                "MiddleChinese",
+                "282-HaveinthemouthtrhaveatasteinthemouthHuainanisperhapsderivedfroman",
+                "ts\u02b0\u1eadm\u1d2e",
+                "ts\u02b0 <s> \u1ead </s> m \u1d2e/\u00b2"
+            ],
+            [
+                "MiddleChinese-285-ColdYiZhoushu-1",
+                "MiddleChinese",
+                "285-ColdYiZhoushu",
+                "t\u1e63\u02b0ja\u014b\u1d9c",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> j a \u014b \u1d9c/\u00b3"
+            ],
+            [
+                "MiddleChinese-296-Begoingtothesidebeslantingdeviating-1",
+                "MiddleChinese",
+                "296-Begoingtothesidebeslantingdeviating",
+                "t\u1e63j\u0259k",
+                "t <s> \u1e63 </s> j \u0259 k"
+            ],
+            [
+                "MiddleChinese-297-BeslantingobliqueZhouli-1",
+                "MiddleChinese",
+                "297-BeslantingobliqueZhouli",
+                "t\u1e63j\u0259k",
+                "t <s> \u1e63 </s> j \u0259 k"
+            ],
+            [
+                "MiddleChinese-298-TofathommeasuredepthShi-1",
+                "MiddleChinese",
+                "298-TofathommeasuredepthShi",
+                "t\u1e63\u02b0j\u0259k",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> j \u0259 k"
+            ],
+            [
+                "MiddleChinese-299-LatrineZuo-1",
+                "MiddleChinese",
+                "299-LatrineZuo",
+                "t\u1e63\u02b0i\u1d9c",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> i \u1d9c/\u00b3"
+            ],
+            [
+                "MiddleChinese-300-NA-1",
+                "MiddleChinese",
+                "300-NA",
+                "t\u1e63\u02b0\u025bk",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u025b k"
+            ],
+            [
+                "MiddleChinese-301-TospearfishZhouli-1",
+                "MiddleChinese",
+                "301-TospearfishZhouli",
+                "t\u1e63\u02b0\u0250k",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u0250 k"
+            ],
+            [
+                "MiddleChinese-304-AforkSW-1",
+                "MiddleChinese",
+                "304-AforkSW",
+                "t\u1e63\u02b0ai",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> a i"
+            ],
+            [
+                "MiddleChinese-305-ForkedbranchofatreeusedforspearingfishSWZhuang-1",
+                "MiddleChinese",
+                "305-ForkedbranchofatreeusedforspearingfishSWZhuang",
+                "t\u1e63\u02b0ai\u1d9c",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> a i \u1d9c/\u00b3"
+            ],
+            [
+                "MiddleChinese-306-DivergencedifferencedistinctionShu-1",
+                "MiddleChinese",
+                "306-DivergencedifferencedistinctionShu",
+                "t\u1e63\u02b0a",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> a"
+            ],
+            [
+                "MiddleChinese-307-UnevenirregularSWKarlgren195616-1",
+                "MiddleChinese",
+                "307-UnevenirregularSWKarlgren195616",
+                "t\u1e63\u02b0jie",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> j i e"
+            ],
+            [
+                "MiddleChinese-308-GraduatedofdifferentlengthShi-1",
+                "MiddleChinese",
+                "308-GraduatedofdifferentlengthShi",
+                "t\u1e63\u02b0jie-\u1e0djie",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> j i e + <s> \u1e0d </s> j i e"
+            ],
+            [
+                "MiddleChinese-309-TohuskgrainwithamortarandpestleSW-1",
+                "MiddleChinese",
+                "309-TohuskgrainwithamortarandpestleSW",
+                "t\u1e63\u02b0\u0103p",
+                "t <s> \u1e63 </s> <s> <<\u02b0>> </s> \u0103 p"
             ],
             [
                 "MiddleChinese-35-EightOBShi-1",
@@ -1383,25 +1649,11 @@
                 "<s> pw </s> \u0103 t"
             ],
             [
-                "MiddleChinese-37-AkindofbamboofromsouthwestChinaGY-1",
-                "MiddleChinese",
-                "37-AkindofbamboofromsouthwestChinaGY",
-                "ba\u1d2e",
-                "b <s> a\u1d2e </s>"
-            ],
-            [
                 "MiddleChinese-4-TopityShiisprobasoundsymbolicword-1",
                 "MiddleChinese",
                 "4-TopityShiisprobasoundsymbolicword",
                 "\u0294\u1eadi",
-                "\u0294 <s> <?> </s> i"
-            ],
-            [
-                "MiddleChinese-43-UprootedShi-1",
-                "MiddleChinese",
-                "43-UprootedShi",
-                "bu\u00e2i\u1d9c",
-                "b u \u00e2 <s> i\u1d9c </s>"
+                "\u0294 <s> \u1ead </s> i"
             ],
             [
                 "MiddleChinese-44-TopullupuprootbeuprootedYiShu-1",
@@ -1409,62 +1661,6 @@
                 "44-TopullupuprootbeuprootedYiShu",
                 "bw\u0103t",
                 "<s> bw </s> \u0103 t"
-            ],
-            [
-                "MiddleChinese-51-AhandfulGuoyu-1",
-                "MiddleChinese",
-                "51-AhandfulGuoyu",
-                "pa\u1d2e",
-                "p <s> a\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-52-Flatvalley-1",
-                "MiddleChinese",
-                "52-Flatvalley",
-                "pa\u1d9c",
-                "p <s> a\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-53-TostopceaseworketctrLun-1",
-                "MiddleChinese",
-                "53-TostopceaseworketctrLun",
-                "ba\u0268\u1d2e",
-                "b a <s> \u0268\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-59-ToopenGuiguzi-1",
-                "MiddleChinese",
-                "59-ToopenGuiguzi",
-                "pa\u0268\u1d2e",
-                "p a <s> \u0268\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-60-ToruindestroyShi-1",
-                "MiddleChinese",
-                "60-ToruindestroyShi",
-                "pai\u1d9c",
-                "p a <s> i\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-61-TogotoruindefeatOBShi-1",
-                "MiddleChinese",
-                "61-TogotoruindefeatOBShi",
-                "bai\u1d9c",
-                "b a <s> i\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-62-Tobendorputtogetherthehandsinsalute-1",
-                "MiddleChinese",
-                "62-Tobendorputtogetherthehandsinsalute",
-                "p\u0103i\u1d9c",
-                "p \u0103 <s> i\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-63-FinericeShi-1",
-                "MiddleChinese",
-                "63-FinericeShi",
-                "bai\u1d9c",
-                "b a <s> i\u1d9c </s>"
             ],
             [
                 "MiddleChinese-64-TodistributeBIShu-1",
@@ -1485,196 +1681,77 @@
                 "MiddleChinese",
                 "67-BoardplankShi",
                 "pwan\u1d2e",
-                "<s> pw </s> a <s> n\u1d2e </s>"
+                "<s> pw </s> a n \u1d2e/\u00b2"
             ],
             [
                 "MiddleChinese-68-GreatofdemeanordomaingodShi-1",
                 "MiddleChinese",
                 "68-GreatofdemeanordomaingodShi",
                 "pwan\u1d2e",
-                "<s> pw </s> a <s> n\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-69-HalfYi-1",
-                "MiddleChinese",
-                "69-HalfYi",
-                "pu\u00e2n\u1d9c",
-                "p u \u00e2 <s> n\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-7-WhitehairedoldShipossiblyrelatedtoTBitemsunderyue-1",
-                "MiddleChinese",
-                "7-WhitehairedoldShipossiblyrelatedtoTBitemsunderyue",
-                "\u014b\u00e2i\u1d9c",
-                "\u014b \u00e2 <s> i\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-70-TocleaveZhouli-1",
-                "MiddleChinese",
-                "70-TocleaveZhouli",
-                "p\u02b0u\u00e2n\u1d9c",
-                "p\u02b0 u \u00e2 <s> n\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-71-BankbetweenfieldsseparatefromZuo-1",
-                "MiddleChinese",
-                "71-BankbetweenfieldsseparatefromZuo",
-                "bu\u00e2n\u1d9c",
-                "b u \u00e2 <s> n\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-72-DiscriminatedistinguishShu-1",
-                "MiddleChinese",
-                "72-DiscriminatedistinguishShu",
-                "b\u0103n\u1d9c",
-                "b \u0103 <s> n\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-73-SectionsofafruitSW-1",
-                "MiddleChinese",
-                "73-SectionsofafruitSW",
-                "b\u0103n\u1d9c",
-                "b \u0103 <s> n\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-74-DivideZhouli-1",
-                "MiddleChinese",
-                "74-DivideZhouli",
-                "bj\u00e4n\u1d2e_3",
-                "b j \u00e4 <s> n\u1d2e </s> _ <s> <?> </s>"
-            ],
-            [
-                "MiddleChinese-75-TodealwithhandlemanageBIZuo-1",
-                "MiddleChinese",
-                "75-TodealwithhandlemanageBIZuo",
-                "b\u0103n\u1d9c",
-                "b \u0103 <s> n\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-76-Petalsofaflowerisalateword14thcentAD-1",
-                "MiddleChinese",
-                "76-Petalsofaflowerisalateword14thcentAD",
-                "b\u0103n\u1d9c",
-                "b \u0103 <s> n\u1d9c </s>"
+                "<s> pw </s> a n \u1d2e/\u00b2"
             ],
             [
                 "MiddleChinese-78-BoardJinshu-1",
                 "MiddleChinese",
                 "78-BoardJinshu",
                 "pw\u00e2\u014b\u1d2e",
-                "<s> pw </s> \u00e2 <s> \u014b\u1d2e </s>"
+                "<s> pw </s> \u00e2 \u014b \u1d2e/\u00b2"
             ],
             [
                 "MiddleChinese-8-TolovetogrudgeShiMand-1",
                 "MiddleChinese",
                 "8-TolovetogrudgeShiMand",
                 "\u0294\u1eadi\u1d9c",
-                "\u0294 <s> <?> </s> <s> i\u1d9c </s>"
-            ],
-            [
-                "MiddleChinese-80-ClubstickPostHanWeishu-1",
-                "MiddleChinese",
-                "80-ClubstickPostHanWeishu",
-                "b\u00e5\u014b\u1d2e",
-                "b \u1e01 <s> \u014b\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-86-TotakecareofababybywrappingitinswaddlingclothMengpeopleShu-1",
-                "MiddleChinese",
-                "86-TotakecareofababybywrappingitinswaddlingclothMengpeopleShu",
-                "p\u00e2u\u1d2e",
-                "p \u00e2 <s> u\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-87-NA-1",
-                "MiddleChinese",
-                "87-NA",
-                "p\u00e2u\u1d2e",
-                "p \u00e2 <s> u\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-88-TheclothinwhichchildrenarecarriedonthebackLushih-1",
-                "MiddleChinese",
-                "88-TheclothinwhichchildrenarecarriedonthebackLushih",
-                "p\u00e2u\u1d2e",
-                "p \u00e2 <s> u\u1d2e </s>"
-            ],
-            [
-                "MiddleChinese-89-ToeattothefullsatiatedShi-1",
-                "MiddleChinese",
-                "89-ToeattothefullsatiatedShi",
-                "pau\u1d2e",
-                "p a <s> u\u1d2e </s>"
+                "\u0294 <s> \u1ead </s> i \u1d9c/\u00b3"
             ],
             [
                 "MiddleChinese-9-ToloseonesbreathShiisasoundsymbolicword29-1",
                 "MiddleChinese",
                 "9-ToloseonesbreathShiisasoundsymbolicword29",
                 "\u0294\u1eadi\u1d9c",
-                "\u0294 <s> <?> </s> <s> i\u1d9c </s>"
+                "\u0294 <s> \u1ead </s> i \u1d9c/\u00b3"
             ],
             [
-                "MiddleChinese-90-BeprecioustreasureBIShi-1",
+                "MiddleChinese-95-NA-1",
                 "MiddleChinese",
-                "90-BeprecioustreasureBIShi",
-                "p\u00e2u\u1d2e",
-                "p \u00e2 <s> u\u1d2e </s>"
+                "95-NA",
+                "bjie\u1d2e_4",
+                "b j i <s> e\u1d2e </s>"
             ],
             [
-                "MiddleChinese-91-CarryinthearmsShi-1",
+                "MiddleChinese-97-BeslantingobliqueShuYi-1",
                 "MiddleChinese",
-                "91-CarryinthearmsShi",
-                "b\u00e2u\u1d2e",
-                "b \u00e2 <s> u\u1d2e </s>"
+                "97-BeslantingobliqueShuYi",
+                "pje\u1d9c_3",
+                "p j <s> e\u1d9c </s>"
             ],
             [
-                "OldChinese-13-TopushdownwiththehandSW-1",
+                "OldChinese-122-MountainslidetocollapsedieofaprominentpersonShi-1",
                 "OldChinese",
-                "13-TopushdownwiththehandSW",
-                "\u0294\u00e2ns",
-                "\u0294 \u00e2 <s> ns </s>"
+                "122-MountainslidetocollapsedieofaprominentpersonShi",
+                "p\u0259\u0302\u014b.",
+                "p \u0259\u0302 \u014b <s> <?> </s>"
             ],
             [
-                "OldChinese-18-PentupZhuang-1",
+                "OldChinese-215-AhandleofaxeflagShi-1",
                 "OldChinese",
-                "18-PentupZhuang",
-                "\u0294\u0259ms",
-                "\u0294 \u0259 <s> ms </s>"
+                "215-AhandleofaxeflagShi",
+                "pra\u014bh_?",
+                "p r a <s> \u014bh </s>"
             ],
             [
-                "OldChinese-22-RiverbankShi-1",
+                "OldChinese-225-BeillsuffersicknessdiseaseShu-1",
                 "OldChinese",
-                "22-RiverbankShi",
-                "\u014b\u00e2ns",
-                "\u014b \u00e2 <s> ns </s>"
+                "225-BeillsuffersicknessdiseaseShu",
+                "bra\u014bh_?",
+                "b r a <s> \u014bh </s>"
             ],
             [
-                "OldChinese-23-CliffBISW-1",
+                "OldChinese-305-ForkedbranchofatreeusedforspearingfishSWZhuang-1",
                 "OldChinese",
-                "23-CliffBISW",
-                "h\u014b\u00e2ns",
-                "h \u014b \u00e2 <s> ns </s>"
-            ],
-            [
-                "OldChinese-26-BedarkGuoyualsoreadQYamLiMand-1",
-                "OldChinese",
-                "26-BedarkGuoyualsoreadQYamLiMand",
-                "\u0294\u0259\u0302ms",
-                "\u0294 \u0259\u0302 <s> ms </s>"
-            ],
-            [
-                "OldChinese-29-AsmallmouthedlargebelliedearthenjarforfetchingwaterLunheng-1",
-                "OldChinese",
-                "29-AsmallmouthedlargebelliedearthenjarforfetchingwaterLunheng",
-                "\u0294\u00e2\u014bh",
-                "\u0294 \u00e2 <s> \u014bh </s>"
-            ],
-            [
-                "OldChinese-53-TostopceaseworketctrLun-1",
-                "OldChinese",
-                "53-TostopceaseworketctrLun",
-                "br\u00ea\u0294_?",
-                "b r \u00ea \u0294 _ <s> <?> </s>"
+                "305-ForkedbranchofatreeusedforspearingfishSWZhuang",
+                "tshr\u00eah",
+                "ts\u02b0 r <s> \u00eah </s>"
             ],
             [
                 "OldChinese-63-FinericeShi-1",
@@ -1684,13 +1761,6 @@
                 "b r <s> \u00eah </s>"
             ],
             [
-                "OldChinese-69-HalfYi-1",
-                "OldChinese",
-                "69-HalfYi",
-                "p\u00e2ns",
-                "p \u00e2 <s> ns </s>"
-            ],
-            [
                 "OldChinese-7-WhitehairedoldShipossiblyrelatedtoTBitemsunderyue-1",
                 "OldChinese",
                 "7-WhitehairedoldShipossiblyrelatedtoTBitemsunderyue",
@@ -1698,141 +1768,113 @@
                 "\u014b <s> \u00e2s </s>"
             ],
             [
-                "OldChinese-70-TocleaveZhouli-1",
-                "OldChinese",
-                "70-TocleaveZhouli",
-                "p\u02b0\u00e2ns",
-                "p\u02b0 \u00e2 <s> ns </s>"
-            ],
-            [
-                "OldChinese-71-BankbetweenfieldsseparatefromZuo-1",
-                "OldChinese",
-                "71-BankbetweenfieldsseparatefromZuo",
-                "b\u00e2ns",
-                "b \u00e2 <s> ns </s>"
-            ],
-            [
-                "OldChinese-72-DiscriminatedistinguishShu-1",
-                "OldChinese",
-                "72-DiscriminatedistinguishShu",
-                "brens",
-                "b r e <s> ns </s>"
-            ],
-            [
-                "OldChinese-75-TodealwithhandlemanageBIZuo-1",
-                "OldChinese",
-                "75-TodealwithhandlemanageBIZuo",
-                "br\u00e2ns",
-                "b r \u00e2 <s> ns </s>"
-            ],
-            [
                 "OldChinese-85-TocutuppeelpluckShi-1",
                 "OldChinese",
                 "85-TocutuppeelpluckShi",
                 "pr\u00f4k.",
                 "p r \u00f4 k <s> <?> </s>"
+            ],
+            [
+                "OldChinese-92-TorepayrequiterewardrespondannounceShi-1",
+                "OldChinese",
+                "92-TorepayrequiterewardrespondannounceShi",
+                "p\u00fbh",
+                "p <s> \u00fbh </s>"
             ]
         ],
-        "bad_words_count": 5633,
+        "bad_words_count": 2124,
         "bipa_errors": [
-            "\u1e63w",
-            "\u015b\u02b0",
-            "m\u1d2e",
-            "n\u1d2c\u01c3",
-            "\u00eas",
-            "\u1e6dh\u02b0",
-            "g\u1d2e",
-            "hw",
-            "\u1e0dw",
-            "\u00eah",
-            "\u015b\u02b0w",
-            "\u014bw",
-            "ts\u02b0w",
-            "sw",
-            "\u00e2s",
-            "a\u1d2c",
-            "\u014b\u1d2e",
-            "bw",
-            "tsw",
-            "\u0268\u1d2e",
-            "ks",
-            "\u014b\u1d2c",
-            "\u1e63\u02b0w",
-            "u\u1d2c",
-            "u\u1d9c",
-            "ms",
-            "nw",
-            "\u1e6d",
-            "\u00e2h",
-            "\u015b",
-            "n\u01c3",
-            "\u0144",
-            "\u1e6dw",
-            "rw",
-            "i\u1d9c",
-            "e\u1d9c",
-            "<?>",
-            "\u00e2\u1d2e",
-            "\u0259\u1d2e",
-            "tsh",
-            "\u00eeh",
-            "__",
-            "\u1e6d\u02b0",
-            "\u00e2\u1d9c",
-            "\u1e93",
-            "a\u1d2e",
-            "\u014b\u1d9c",
-            "nh",
-            "m\u1d9c",
-            "i\u1d2e",
-            "\u0268\u1d9c",
-            "a\u1d9c",
-            "\u025b\u1d2e",
-            "n\u1d2c",
-            "n\u1d9c",
-            "\u014bh",
-            "u\u1d2e",
-            "\u00fbh",
-            "<<\u02d7>>",
-            "\u00f4s",
-            "n\u1d2e",
-            "o\u1d9c",
-            "\u0251\u1d2e",
-            "e\u1d2e",
-            "khw",
-            "\u0263w",
-            "\u015bw",
-            "\u00f4h",
-            "mw",
-            "\u1e0d",
-            "pw",
-            "\u1e63",
-            "\u0294w",
-            "\u00fbs",
-            "\u1e63h",
-            "zw",
-            "\u0251\u1d9c",
-            "lh",
-            "gw",
-            "k\u02b0w",
-            "xw",
-            "ps",
             "o\u1d2e",
-            "\u1e63\u02b0",
-            "ns",
+            "hw",
+            "\u1ead",
+            "\u00e2s",
+            "\u00f4h",
+            "<?>",
+            "\u00fbh",
+            "mw",
+            "e\u1d9c",
+            "<<\u017a>>",
+            "g\u1d2e",
+            "\u1e6dh\u02b0",
+            "nw",
+            "i\u1d2e",
+            "bw",
+            "\u025b\u1d2e",
+            "n\u02d7",
+            "\u00e2\u1d9c",
+            "\u1e63w",
+            "\u1e0dw",
+            "\u00fbs",
+            "tsw",
+            "zw",
+            "ts\u02b0w",
+            "\u00eas",
+            "u\u1d9c",
+            "sw",
+            "ms",
+            "\u014b\u1d9c",
+            "\u014b\u1d2e",
+            "\u00f4s",
+            "\u014b\u1d2c",
+            "k\u02b0w",
+            "<<\u02b0>>",
+            "\u00e2h",
+            "\u0144",
+            "i\u1d9c",
+            "u\u1d2e",
+            "\u015b",
+            "o\u1d9c",
+            "xw",
+            "u\u1d2c",
+            "\u1e63",
+            "\u1e63h",
+            "ks",
+            "n\u1d2c\u01c3",
+            "e\u1d2e",
+            "\u0268\u1d9c",
+            "\u0251\u1d9c",
+            "m\u1d9c",
+            "\u014bw",
+            "\u015bw",
+            "\u1e6d",
+            "\u1e6dw",
+            "nh",
+            "pw",
+            "<<_>>",
+            "\u00e2\u1d2e",
+            "\u00eeh",
+            "\u0268\u1d2e",
+            "o\u1d2c",
             "\u025b\u1d9c",
-            "m\u1d2c",
             "rh",
-            "jw",
+            "ps",
+            "n\u01c3",
+            "\u015b\u02b0w",
             "\u00ees",
-            "\u0259\u1d9c",
-            "o\u1d2c"
+            "\u0251\u1d2e",
+            "m\u1d2e",
+            "\u0294w",
+            "m\u1d2c",
+            "<<\u1e93>>",
+            "rw",
+            "\u00eah",
+            "n\u1d2c",
+            "khw",
+            "\u014bh",
+            "lh",
+            "n\u1d9c",
+            "\u1e0d",
+            "\u1e63\u02b0w",
+            "a\u1d2c"
         ],
-        "general_errors": 6905,
+        "general_errors": 2405,
         "invalid_words": [],
         "invalid_words_count": 0,
-        "inventory_size": 84.66666666666666,
+        "inventory_size": 82.66666666666666,
         "replacements": {
+            "+": [
+                "+"
+            ],
             "_": [
                 "_"
             ],
@@ -1872,6 +1914,9 @@
             "h": [
                 "h"
             ],
+            "h/\u00b3": [
+                "\u00b3"
+            ],
             "i": [
                 "i"
             ],
@@ -1883,6 +1928,9 @@
             ],
             "j": [
                 "j"
+            ],
+            "jw/\u0265": [
+                "\u0265"
             ],
             "k": [
                 "k"
@@ -1896,11 +1944,17 @@
             "l": [
                 "l"
             ],
+            "lh/l\u0325": [
+                "l\u0325"
+            ],
             "m": [
                 "m"
             ],
             "n": [
                 "n"
+            ],
+            "n\u0301z\u0301/\u0235": [
+                "\u0235"
             ],
             "n\u0329": [
                 "n\u0329"
@@ -1947,17 +2001,23 @@
             "x": [
                 "x"
             ],
-            "y": [
-                "y"
+            "y/j": [
+                "j"
             ],
             "z": [
                 "z"
+            ],
+            "z\u0301/\u0291": [
+                "\u0291"
             ],
             "\u00b2": [
                 "\u00b2"
             ],
             "\u014b": [
                 "\u014b"
+            ],
+            "\u014bh/\u014b\u030a": [
+                "\u014b\u030a"
             ],
             "\u0250": [
                 "\u0250"
@@ -1980,136 +2040,139 @@
             "\u0263": [
                 "\u0263"
             ],
+            "\u0265": [
+                "\u0265"
+            ],
             "\u0266": [
                 "\u0266"
             ],
             "\u0268": [
                 "\u0268"
             ],
+            "\u0288\u02b0": [
+                "\u0288\u02b0"
+            ],
             "\u0294": [
                 "\u0294"
+            ],
+            "\u1d2e/\u00b2": [
+                "\u00b2"
+            ],
+            "\u1d9c/\u00b3": [
+                "\u00b3"
             ]
         },
         "sclass_errors": [
-            "\u1e63w",
-            "\u015b\u02b0",
-            "m\u1d2e",
-            "n\u1d2c\u01c3",
-            "\u00eas",
-            "\u1e6dh\u02b0",
-            "g\u1d2e",
-            "hw",
-            "\u1e0dw",
-            "\u00eah",
-            "\u015b\u02b0w",
-            "\u014bw",
-            "ts\u02b0w",
-            "sw",
-            "\u00e2s",
-            "a\u1d2c",
-            "\u014b\u1d2e",
-            "bw",
-            "tsw",
-            "\u0268\u1d2e",
-            "ks",
-            "\u014b\u1d2c",
-            "\u1e63\u02b0w",
-            "u\u1d2c",
-            "u\u1d9c",
-            "ms",
-            "nw",
-            "\u1e6d",
-            "\u00e2h",
-            "\u015b",
-            "n\u01c3",
-            "\u0144",
-            "\u1e6dw",
-            "rw",
-            "i\u1d9c",
-            "e\u1d9c",
-            "<?>",
-            "\u00e2\u1d2e",
-            "\u0259\u1d2e",
-            "tsh",
-            "\u00eeh",
-            "__",
-            "\u1e6d\u02b0",
-            "\u00e2\u1d9c",
-            "\u1e93",
-            "a\u1d2e",
-            "\u014b\u1d9c",
-            "nh",
-            "m\u1d9c",
-            "i\u1d2e",
-            "\u0268\u1d9c",
-            "a\u1d9c",
-            "\u025b\u1d2e",
-            "n\u1d2c",
-            "n\u1d9c",
-            "\u014bh",
-            "u\u1d2e",
-            "\u00fbh",
-            "<<\u02d7>>",
-            "\u00f4s",
-            "n\u1d2e",
-            "o\u1d9c",
-            "\u0251\u1d2e",
-            "e\u1d2e",
-            "khw",
-            "\u0263w",
-            "\u015bw",
-            "\u00f4h",
-            "mw",
-            "\u1e0d",
-            "pw",
-            "\u1e63",
-            "\u0294w",
-            "\u00fbs",
-            "\u1e63h",
-            "zw",
-            "\u0251\u1d9c",
-            "lh",
-            "gw",
-            "k\u02b0w",
-            "xw",
-            "ps",
             "o\u1d2e",
-            "\u1e63\u02b0",
-            "ns",
+            "hw",
+            "\u1ead",
+            "\u00e2s",
+            "\u00f4h",
+            "<?>",
+            "\u00fbh",
+            "mw",
+            "e\u1d9c",
+            "<<\u017a>>",
+            "g\u1d2e",
+            "\u1e6dh\u02b0",
+            "nw",
+            "i\u1d2e",
+            "bw",
+            "\u025b\u1d2e",
+            "n\u02d7",
+            "\u00e2\u1d9c",
+            "\u1e63w",
+            "\u1e0dw",
+            "\u00fbs",
+            "tsw",
+            "zw",
+            "ts\u02b0w",
+            "\u00eas",
+            "u\u1d9c",
+            "sw",
+            "ms",
+            "\u014b\u1d9c",
+            "\u014b\u1d2e",
+            "\u00f4s",
+            "\u014b\u1d2c",
+            "k\u02b0w",
+            "<<\u02b0>>",
+            "\u00e2h",
+            "\u0144",
+            "i\u1d9c",
+            "u\u1d2e",
+            "\u015b",
+            "o\u1d9c",
+            "xw",
+            "u\u1d2c",
+            "\u1e63",
+            "\u1e63h",
+            "ks",
+            "n\u1d2c\u01c3",
+            "e\u1d2e",
+            "\u0268\u1d9c",
+            "\u0251\u1d9c",
+            "m\u1d9c",
+            "\u014bw",
+            "\u015bw",
+            "\u1e6d",
+            "\u1e6dw",
+            "nh",
+            "pw",
+            "<<_>>",
+            "\u00e2\u1d2e",
+            "\u00eeh",
+            "\u0268\u1d2e",
+            "o\u1d2c",
             "\u025b\u1d9c",
-            "m\u1d2c",
             "rh",
-            "jw",
+            "ps",
+            "n\u01c3",
+            "\u015b\u02b0w",
             "\u00ees",
-            "\u0259\u1d9c",
-            "o\u1d2c"
+            "\u0251\u1d2e",
+            "m\u1d2e",
+            "\u0294w",
+            "m\u1d2c",
+            "<<\u1e93>>",
+            "rw",
+            "\u00eah",
+            "n\u1d2c",
+            "khw",
+            "\u014bh",
+            "lh",
+            "n\u1d9c",
+            "\u1e0d",
+            "\u1e63\u02b0w",
+            "a\u1d2c"
         ],
         "segments": {
-            "<<\u02d7>>": 1,
-            "<?>": 1201,
-            "_": 687,
-            "__": 1,
-            "a": 1605,
+            "+": 264,
+            "<<_>>": 18,
+            "<<\u017a>>": 165,
+            "<<\u02b0>>": 121,
+            "<<\u1e93>>": 48,
+            "<?>": 48,
+            "_": 2,
+            "a": 1712,
             "a\u1d2c": 1,
-            "a\u1d2e": 50,
-            "a\u1d9c": 57,
             "b": 460,
             "bw": 3,
             "d": 986,
-            "e": 1235,
-            "e\u1d2e": 75,
-            "e\u1d9c": 52,
-            "g": 533,
-            "gw": 32,
+            "e": 1337,
+            "e\u1d2e": 15,
+            "e\u1d9c": 10,
+            "g": 565,
             "g\u1d2e": 1,
             "h": 453,
+            "h/\u00b3": 30,
             "hw": 20,
-            "i": 2147,
+            "i": 2623,
             "i\u02d0": 1,
-            "i\u1d2e": 199,
-            "i\u1d9c": 318,
+            "i\u1d2e": 16,
+            "i\u1d9c": 23,
             "j": 1745,
-            "jw": 419,
+            "jw/\u0265": 41,
             "k": 2245,
             "khw": 26,
             "ks": 1,
@@ -2117,23 +2180,23 @@
             "k\u02b0w": 7,
             "k\u02b7": 76,
             "l": 746,
-            "lh": 95,
-            "m": 1039,
-            "ms": 35,
+            "lh": 3,
+            "lh/l\u0325": 92,
+            "m": 1281,
+            "ms": 2,
             "mw": 9,
             "m\u1d2c": 2,
-            "m\u1d2e": 148,
-            "m\u1d9c": 72,
-            "n": 1304,
+            "m\u1d2e": 9,
+            "m\u1d9c": 2,
+            "n": 2056,
             "nh": 24,
-            "ns": 162,
             "nw": 1,
             "n\u01c3": 1,
+            "n\u02d7": 1,
             "n\u0329": 52,
             "n\u1d2c": 2,
             "n\u1d2c\u01c3": 1,
-            "n\u1d2e": 280,
-            "n\u1d9c": 337,
+            "n\u1d9c": 24,
             "o": 733,
             "o\u1d2c": 1,
             "o\u1d2e": 122,
@@ -2145,30 +2208,29 @@
             "r": 861,
             "rh": 11,
             "rw": 1,
-            "s": 759,
+            "s": 954,
             "sw": 7,
-            "t": 1564,
+            "t": 1562,
             "ts": 422,
-            "tsh": 88,
             "tsw": 3,
-            "ts\u02b0": 161,
+            "ts\u02b0": 249,
             "ts\u02b0w": 1,
             "t\u02b0": 211,
-            "u": 2219,
+            "u": 2704,
             "u\u1d2c": 1,
-            "u\u1d2e": 246,
-            "u\u1d9c": 261,
-            "w": 265,
+            "u\u1d2e": 14,
+            "u\u1d9c": 8,
+            "w": 324,
             "x": 109,
             "xw": 8,
-            "y": 86,
+            "y/j": 86,
             "z": 375,
             "zw": 6,
             "\u00b2": 1,
-            "\u00e2": 1037,
-            "\u00e2h": 31,
+            "\u00e2": 1093,
+            "\u00e2h": 1,
             "\u00e2s": 12,
-            "\u00e2\u1d2e": 27,
+            "\u00e2\u1d2e": 1,
             "\u00e2\u1d9c": 19,
             "\u00e4": 403,
             "\u00ea": 216,
@@ -2185,50 +2247,51 @@
             "\u00fbs": 2,
             "\u0101": 1,
             "\u0103": 70,
-            "\u0144": 160,
-            "\u014b": 1545,
-            "\u014bh": 104,
+            "\u0144": 158,
+            "\u0144\u017a/\u0235": 2,
+            "\u014b": 1991,
+            "\u014bh": 12,
+            "\u014bh/\u014b\u030a": 92,
             "\u014bw": 5,
             "\u014b\u1d2c": 8,
-            "\u014b\u1d2e": 226,
-            "\u014b\u1d9c": 228,
-            "\u015b": 407,
+            "\u014b\u1d2e": 7,
+            "\u014b\u1d9c": 1,
+            "\u015b": 477,
             "\u015bw": 2,
-            "\u015b\u02b0": 72,
             "\u015b\u02b0w": 1,
+            "\u017a/\u0291": 88,
             "\u0250": 175,
-            "\u0251": 912,
-            "\u0251\u1d2e": 91,
-            "\u0251\u1d9c": 71,
+            "\u0251": 1072,
+            "\u0251\u1d2e": 1,
+            "\u0251\u1d9c": 1,
             "\u0254": 44,
-            "\u0259": 1320,
+            "\u0259": 1415,
             "\u0259\u0302": 232,
-            "\u0259\u1d2e": 51,
-            "\u0259\u1d9c": 44,
             "\u025b": 136,
             "\u025b\u1d2e": 9,
             "\u025b\u1d9c": 9,
-            "\u0263": 204,
-            "\u0263w": 27,
+            "\u0263": 231,
+            "\u0265": 378,
             "\u0266": 1,
-            "\u0268": 465,
-            "\u0268\u1d2e": 45,
-            "\u0268\u1d9c": 31,
+            "\u0268": 538,
+            "\u0268\u1d2e": 2,
+            "\u0268\u1d9c": 1,
+            "\u0288\u02b0": 47,
             "\u0294": 1229,
             "\u0294w": 23,
+            "\u1d2e/\u00b2": 1373,
+            "\u1d9c/\u00b3": 1401,
             "\u1e01": 39,
             "\u1e0d": 181,
             "\u1e0dw": 3,
-            "\u1e63": 170,
+            "\u1e63": 219,
             "\u1e63h": 1,
             "\u1e63w": 3,
-            "\u1e63\u02b0": 49,
             "\u1e63\u02b0w": 2,
             "\u1e6d": 121,
             "\u1e6dh\u02b0": 1,
             "\u1e6dw": 1,
-            "\u1e6d\u02b0": 47,
-            "\u1e93": 48
+            "\u1ead": 150
         }
     }
 }

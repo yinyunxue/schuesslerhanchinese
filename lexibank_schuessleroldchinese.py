@@ -134,7 +134,7 @@ class Dataset(BaseDataset):
                             # check for problematic entries
                             if entry[language] not in self.lexemes:
                                 test = self.form_spec.split(None, entry[language])
-                                if not test or len(test[0]) > 8:
+                                if not test or len(test[0]) > 7:
                                     args.log.info("problematic entry {0} / {1}".format(
                                                 entry["ENTRY"],
                                                 entry[language]))
