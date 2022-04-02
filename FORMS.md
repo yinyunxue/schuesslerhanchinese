@@ -11,7 +11,7 @@ These methods use the attributes of a `FormSpec` instance to configure their beh
 
 - `brackets`: `{'(': ')', '[': ']'}`
   Pairs of strings that should be recognized as brackets, specified as `dict` mapping opening string to closing string
-- `separators`: `;/,<~>`
+- `separators`: `;/,<~>|`
   Iterable of single character tokens that should be recognized as word separator
 - `missing_data`: `['', '--']`
   Iterable of strings that are used to mark missing data

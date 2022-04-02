@@ -17,9 +17,9 @@ from sinopy.util import is_chinese
 
 
 def parse_entry(entry):
-    for sep in ["~", "⪤", "or", "="]:
+    for sep in ["~", "⪤", "or", "=", "<"]:
         if sep in entry:
-            entry = entry.split(sep)[0]
+            entry = entry.split(sep)[0].strip()
             break
     if len(entry.split(" ")) == 2:
         pin, char = entry.split(" ")
@@ -56,7 +56,7 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
           missing_data=["", "--"],
           replacements=[(" ", "_"), ("*", ""), ("_!", "")],
-          separators=";/,<~>",
+          separators=";/,<~>|",
           brackets={"(": ")", "[": "]"},
           strip_inside_brackets=True,
           first_form_only=True
@@ -93,7 +93,7 @@ class Dataset(BaseDataset):
                 elif ":" in line:
                     head = line[:line.index(":")]
                     rest = ":".join(line.split(":")[1:])
-                    for h in ["Middle Chinese", "Later Han", "OCM"]:
+                    for h in ["Middle Chinese", "Later Han", "Minimal Old Chinese"]:
                         if rest.startswith(h+":"):
                             rest = ":".join(rest.split(":")[1:])
                     if head == "GLOSS":
@@ -107,6 +107,7 @@ class Dataset(BaseDataset):
             else:
                 args.log.info("no HEAD found in {0}".format(entry["ENTRY"]))
         args.log.info("found {0} entries".format(len(entries)))
+        count, problems = 0, set()
         for entry in entries.values():
             if "MC" in entry or "LH" in entry or "OCM" in entry:
                 # get concept identifier
@@ -122,13 +123,8 @@ class Dataset(BaseDataset):
                         )
                 # get pinyin and the like
                 pinyin, char, problem = parse_entry(entry["HEAD"])
-                print(pinyin
-                if problem == "!":
-                    args.log.info("skipping problematic entry {0}".format(
-                        entry["ENTRY"]))
-                elif problem == "?":
-                    args.log.info("skipping half-problematic entry {0}".format(
-                        entry["ENTRY"]))
+                if problem in ["!", "?"]:
+                    problems.add((problem, entry["ENTRY"], entry["HEAD"]))
                 else:
                     for lid, language in [
                             ("MiddleChinese", "MC"), 
@@ -141,7 +137,7 @@ class Dataset(BaseDataset):
                                     Pinyin=pinyin,
                                     Chinese_Characters=char,
                                     Language_ID=lid,
-                                    Value=entry[language],
+                                    Value=entry[language].replace(" or ", "|"),
                                     Parameter_ID=cidx,
                                     Source="Schuessler2007",
                                     Cognacy=entry["ENTRY"],
@@ -150,7 +146,11 @@ class Dataset(BaseDataset):
                                     )
 
             else:
-                args.log.info("skipping entry without data {0}".format(entry["ENTRY"]))
+                count += 1
+        args.log.info("skipped {0} entries without data".format(count))
+        args.log.info("skipped {0} entries with problems".format(len(problems)))
+        for p, e, h in list(problems)[:10]:
+            print("{0} | {1:5} | {2}".format(p, e, h))
 
 
           
