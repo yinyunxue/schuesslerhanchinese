@@ -11,28 +11,28 @@
     "dcat:accessURL": "https://github.com/yinyunxue/schuesslerhanchinese",
     "prov:wasDerivedFrom": [
         {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Repository",
             "rdf:about": "https://github.com/yinyunxue/schuesslerhanchinese",
-            "rdf:type": "prov:Entity",
-            "dc:created": "6ebce5f",
-            "dc:title": "Repository"
+            "dc:created": "4bbe42f"
         },
         {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "rdf:type": "prov:Entity",
-            "dc:created": "v4.5-20-g9bdfb86608",
-            "dc:title": "Glottolog"
+            "dc:created": "v4.5"
         },
         {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "rdf:type": "prov:Entity",
-            "dc:created": "v2.5.0-70-g05e6d4b",
-            "dc:title": "Concepticon"
+            "dc:created": "v2.5.0"
         },
         {
-            "rdf:about": "https://github.com/cldf-clts/clts/",
             "rdf:type": "prov:Entity",
-            "dc:created": "v2.1.0-26-gb12a7df",
-            "dc:title": "CLTS"
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "dc:created": "v2.1.0-26-gb12a7df"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 11426,
+            "dc:extent": 7521,
             "tableSchema": {
                 "columns": [
                     {
@@ -129,11 +129,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Character"
+                        "name": "Chinese_Characters"
                     },
                     {
                         "datatype": "string",
-                        "name": "CharacterVariants"
+                        "name": "Entry_In_Source"
                     },
                     {
                         "datatype": "string",
@@ -141,11 +141,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "WordFamily"
+                        "name": "Misc"
                     },
                     {
                         "datatype": "string",
-                        "name": "FormVariants"
+                        "name": "Sino_Tibetan_Cognates"
                     }
                 ],
                 "foreignKeys": [
@@ -246,7 +246,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 3893,
+            "dc:extent": 2582,
             "tableSchema": {
                 "columns": [
                     {

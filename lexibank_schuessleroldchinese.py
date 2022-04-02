@@ -13,39 +13,38 @@ from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.util import pb, getEvoBibAsBibtex
 
 import re
-from sinopy import is_chinese
+from sinopy.util import is_chinese
 
 
-def parse_gloss(entry):
+def parse_entry(entry):
+    for sep in ["~", "⪤", "or", "="]:
+        if sep in entry:
+            entry = entry.split(sep)[0]
+            break
+    if len(entry.split(" ")) == 2:
+        pin, char = entry.split(" ")
+        pin = pin.strip("₁₂₃₄₅₆₇₈₉₀")
+        if len(char) == 1 and not is_chinese(char):
+            return pin, char, '?'
+        return pin, char, ''
+    return entry, "", "!"
     
-    gloss = re.findall("‘([^’]*?)’", entry)
-    if gloss:
-        return gloss[0]
-    else:
-        return "NA"
 
 @attr.s
 class CustomConcept(Concept):
     Number = attr.ib(default=None)
     Description = attr.ib(default=None)
 
-#@attr.s
-#class CustomLanguage(Language):
-#    Latitude = attr.ib(default=None)
-#    Longitude = attr.ib(default=None)
-#    ChineseName = attr.ib(default=None)
-#    SubGroup = attr.ib(default="Sinitic")
-#    Family = attr.ib(default="Sino-Tibetan")
-#    DialectGroup = attr.ib(default=None)
 
 
 @attr.s
 class CustomLexeme(Lexeme):
-    Character = attr.ib(default=None)
-    CharacterVariants = attr.ib(default=None)
+    Chinese_Characters = attr.ib(default=None)
+    Entry_In_Source = attr.ib(default=None)
     Pinyin = attr.ib(default=None)
-    WordFamily = attr.ib(default=None)
-    FormVariants = attr.ib(default=None)
+    Misc = attr.ib(default=None)
+    Sino_Tibetan_Cognates = attr.ib(default=None)
+
 
 
 class Dataset(BaseDataset):
@@ -57,18 +56,17 @@ class Dataset(BaseDataset):
     form_spec = FormSpec(
           missing_data=["", "--"],
           replacements=[(" ", "_"), ("*", ""), ("_!", "")],
-          separators=";/,<~",
+          separators=";/,<~>",
           brackets={"(": ")", "[": "]"},
           strip_inside_brackets=True,
           first_form_only=True
       )
     def cmd_download(self, **kw):
         self.raw_dir.write("sources.bib", getEvoBibAsBibtex("Schuessler2007", **kw))
+        
+
 
     def cmd_makecldf(self, args):
-
-        data = self.raw_dir.read_csv("SchuesslerTharsen.tsv", delimiter="\t",
-                dicts=True)[1:]
         
         # add sources from raw/sources.bib
         args.writer.add_sources()
@@ -80,44 +78,80 @@ class Dataset(BaseDataset):
                     Name=lang
                     )
 
-        # add concepts
-        concepts = {}
-        for row in progressbar(data):
-            if row["QY_IPA"].strip():
-                concept = parse_gloss(row["Notes"])
-                idx = "{0}-{1}".format(row["ID"], slug(concept, lowercase=False))
+        with open(self.raw_dir / "schuesslerCooper.txt") as f:
+            entries_ = f.read().split("\n\n")
+        entries = {}
+        for entry_ in entries_:
+            entry = {"DESCRIPTION": [], "GLOSS": [], "MISC": [], "ST": []}
+            for line in entry_.split("\n"):
+                if line.startswith(" "):
+                    entry["DESCRIPTION"] += [line.strip()]
+                elif line.startswith(">"):
+                    entry["MISC"] += [line[2:]]
+                elif line.startswith(":"):
+                    entry["ST"] += [line[2:]]
+                elif ":" in line:
+                    head = line[:line.index(":")]
+                    rest = ":".join(line.split(":")[1:])
+                    for h in ["Middle Chinese", "Later Han", "OCM"]:
+                        if rest.startswith(h+":"):
+                            rest = ":".join(rest.split(":")[1:])
+                    if head == "GLOSS":
+                        entry["GLOSS"] += [rest]
+                    else:
+                        entry[head] = rest
+            if "HEAD" in entry:
+                if not entry["GLOSS"]:
+                    entry["GLOSS"] = ["NA"]
+                entries[entry["ENTRY"]] = entry
+            else:
+                args.log.info("no HEAD found in {0}".format(entry["ENTRY"]))
+        args.log.info("found {0} entries".format(len(entries)))
+        for entry in entries.values():
+            if "MC" in entry or "LH" in entry or "OCM" in entry:
+                # get concept identifier
+                gloss = entry["GLOSS"][0]
+                cidx = "{0}-{1}".format(
+                        entry["ENTRY"], 
+                        slug(gloss, lowercase=False)
+                        )
                 args.writer.add_concept(
-                        ID=idx,
-                        Name=concept,
-                        Number=idx,
-                        Description=row["Notes"])
-                for lang, reading_ in [("OldChinese", "OCM_IPA"),
-                        ("LateHanChinese", "LH_IPA"),
-                        ("MiddleChinese", "QY_IPA")]:
-                    reading = row[reading_].strip()
-                    reading_variants = ""
-                    if "or" in reading:
-                        reading_variants = reading
-                        reading = reading.split("or")[0].strip()
-                    if is_chinese(reading):
-                        args.log.info("{0} has wrong form {1} for {2}".format(
-                            row["ID"],
-                            row[reading_],
-                            lang))
-                    elif reading:
-                        args.writer.add_forms_from_value(
-                                Local_ID=row["pinyin_index"],
-                                FormVariants=reading_variants,
-                                Value=reading,
-                                Parameter_ID=idx,
-                                Language_ID=lang,
-                                Character=row["graph"][0],
-                                CharacterVariants=row["graph"] if len(row["graph"]) > 1 else "",
-                                Cognacy=row["ID"],
-                                Source="Schuessler2007",
-                                WordFamily=row["wf_pinyin"].strip("{") or row["pinyin_index"].strip(),
-                                Pinyin=row["pinyin_index"].strip("123456789")
-                                )
+                        ID=cidx,
+                        Name=gloss,
+                        Description=" ".join(entry.get("GLOSS", [])),
+                        )
+                # get pinyin and the like
+                pinyin, char, problem = parse_entry(entry["HEAD"])
+                print(pinyin
+                if problem == "!":
+                    args.log.info("skipping problematic entry {0}".format(
+                        entry["ENTRY"]))
+                elif problem == "?":
+                    args.log.info("skipping half-problematic entry {0}".format(
+                        entry["ENTRY"]))
+                else:
+                    for lid, language in [
+                            ("MiddleChinese", "MC"), 
+                            ("LateHanChinese", "LH"), 
+                            ("OldChinese", "OCM")]:
+                        if language in entry:
+                            args.writer.add_forms_from_value(
+                                    Local_ID=entry["ENTRY"],
+                                    Entry_In_Source=entry["HEAD"],
+                                    Pinyin=pinyin,
+                                    Chinese_Characters=char,
+                                    Language_ID=lid,
+                                    Value=entry[language],
+                                    Parameter_ID=cidx,
+                                    Source="Schuessler2007",
+                                    Cognacy=entry["ENTRY"],
+                                    Misc=" ".join(entry["MISC"]),
+                                    Sino_Tibetan_Cognates=" // ".join(entry["ST"])
+                                    )
+
+            else:
+                args.log.info("skipping entry without data {0}".format(entry["ENTRY"]))
+
 
           
 
