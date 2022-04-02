@@ -5,153 +5,103 @@
 
 | Segment | Occurrence | BIPA | CLTS SoundClass |
 |:----------|-------------:|:-------|:------------------|
-| u | 2704 | ✓ | ✓ |
-| i | 2623 | ✓ | ✓ |
-| k | 2245 | ✓ | ✓ |
-| n | 2056 | ✓ | ✓ |
-| ŋ | 1991 | ✓ | ✓ |
+| u | 2727 | ✓ | ✓ |
+| i | 2661 | ✓ | ✓ |
+| k | 2246 | ✓ | ✓ |
+| n | 2061 | ✓ | ✓ |
+| ŋ | 2012 | ✓ | ✓ |
 | j | 1745 | ✓ | ✓ |
-| a | 1712 | ✓ | ✓ |
-| t | 1562 | ✓ | ✓ |
+| a | 1713 | ✓ | ✓ |
+| t | 1563 | ✓ | ✓ |
+| ᶜ/³ | 1474 | ✓ | ✓ |
+| ᴮ/² | 1449 | ✓ | ✓ |
 | ə | 1415 | ✓ | ✓ |
-| ᶜ/³ | 1401 | ✓ | ✓ |
-| ᴮ/² | 1373 | ✓ | ✓ |
-| e | 1337 | ✓ | ✓ |
-| m | 1281 | ✓ | ✓ |
-| ʔ | 1229 | ✓ | ✓ |
-| â | 1093 | ✓ | ✓ |
-| ɑ | 1072 | ✓ | ✓ |
-| d | 986 | ✓ | ✓ |
-| s | 954 | ✓ | ✓ |
-| r | 861 | ✓ | ✓ |
-| p | 823 | ✓ | ✓ |
+| e | 1361 | ✓ | ✓ |
+| m | 1301 | ✓ | ✓ |
+| ʔ | 1252 | ✓ | ✓ |
+| â | 1126 | ✓ | ✓ |
+| ɑ | 1074 | ✓ | ✓ |
+| d | 985 | ✓ | ✓ |
+| s | 985 | ✓ | ✓ |
+| r | 862 | ✓ | ✓ |
+| p | 831 | ✓ | ✓ |
 | l | 746 | ✓ | ✓ |
-| o | 733 | ✓ | ✓ |
-| g | 565 | ✓ | ✓ |
-| ɨ | 538 | ✓ | ✓ |
-| kʰ | 489 | ✓ | ✓ |
-| ś | 477 | ? | ? |
-| b | 460 | ✓ | ✓ |
-| h | 453 | ✓ | ✓ |
-| ts | 422 | ✓ | ✓ |
+| o | 739 | ✓ | ✓ |
+| g | 566 | ✓ | ✓ |
+| ɨ | 539 | ✓ | ✓ |
+| kʰ | 496 | ✓ | ✓ |
+| h | 482 | ✓ | ✓ |
+| ś | 480 | ? | ? |
+| b | 463 | ✓ | ✓ |
+| w | 442 | ✓ | ✓ |
+| ts | 425 | ✓ | ✓ |
 | ä | 403 | ✓ | ✓ |
+| z | 380 | ✓ | ✓ |
 | ɥ | 378 | ✓ | ✓ |
-| z | 375 | ✓ | ✓ |
-| w | 324 | ✓ | ✓ |
-| + | 264 | ✓ | ✓ |
-| tsʰ | 249 | ✓ | ✓ |
-| ə̂ | 232 | ✓ | ✓ |
+| + | 260 | ✓ | ✓ |
+| tsʰ | 250 | ✓ | ✓ |
+| ô | 239 | ✓ | ✓ |
+| ê | 236 | ✓ | ✓ |
+| ə̂ | 231 | ✓ | ✓ |
 | ɣ | 231 | ✓ | ✓ |
-| ô | 219 | ✓ | ✓ |
-| ṣ | 219 | ? | ? |
-| ê | 216 | ✓ | ✓ |
-| tʰ | 211 | ✓ | ✓ |
+| ṣ | 225 | ? | ? |
+| tʰ | 210 | ✓ | ✓ |
 | pʰ | 187 | ✓ | ✓ |
 | ḍ | 181 | ? | ? |
 | ɐ | 175 | ✓ | ✓ |
-| <<ź>> | 165 | ? | ? |
-| û | 161 | ✓ | ✓ |
+| û | 172 | ✓ | ✓ |
+| <<ź>> | 168 | ? | ? |
 | ń | 158 | ? | ? |
+| ɛ | 152 | ✓ | ✓ |
 | ậ | 150 | ? | ? |
-| ɛ | 136 | ✓ | ✓ |
-| oᴮ | 122 | ? | ? |
-| <<ʰ>> | 121 | ? | ? |
+| <<ʰ>> | 124 | ? | ? |
 | ṭ | 121 | ? | ? |
-| oᶜ | 117 | ? | ? |
-| x | 109 | ✓ | ✓ |
-| lh/l̥ | 92 | ✓ | ✓ |
-| ŋh/ŋ̊ | 92 | ✓ | ✓ |
+| oᴮ | 118 | ? | ? |
+| x | 117 | ✓ | ✓ |
+| oᶜ | 116 | ? | ? |
+| ŋh/ŋ̊ | 102 | ✓ | ✓ |
+| lh/l̥ | 95 | ✓ | ✓ |
+| î | 89 | ✓ | ✓ |
 | ź/ʑ | 88 | ✓ | ✓ |
 | y/j | 86 | ✓ | ✓ |
-| î | 81 | ✓ | ✓ |
 | kʷ | 76 | ✓ | ✓ |
 | ă | 70 | ✓ | ✓ |
 | n̩ | 52 | ✓ | ✓ |
 | <<ẓ>> | 48 | ? | ? |
-| <?> | 48 | ? | ? |
 | ʈʰ | 47 | ✓ | ✓ |
 | ɔ | 44 | ✓ | ✓ |
+| h/³ | 42 | ✓ | ✓ |
 | jw/ɥ | 41 | ✓ | ✓ |
 | ḁ | 39 | ✓ | ✓ |
-| h/³ | 30 | ✓ | ✓ |
+| h/² | 31 | ✓ | ✓ |
 | khw | 26 | ? | ? |
-| nh | 24 | ? | ? |
 | nᶜ | 24 | ? | ? |
-| iᶜ | 23 | ? | ? |
-| ʔw | 23 | ? | ? |
-| hw | 20 | ? | ? |
-| ôh | 20 | ? | ? |
-| âᶜ | 19 | ? | ? |
-| <<_>> | 18 | ? | ? |
-| iᴮ | 16 | ? | ? |
-| eᴮ | 15 | ? | ? |
-| uᴮ | 14 | ? | ? |
-| êh | 13 | ? | ? |
-| âs | 12 | ? | ? |
-| ŋh | 12 | ? | ? |
-| rh | 11 | ? | ? |
-| eᶜ | 10 | ? | ? |
-| mw | 9 | ? | ? |
-| mᴮ | 9 | ? | ? |
-| ûh | 9 | ? | ? |
-| ɛᴮ | 9 | ? | ? |
-| ɛᶜ | 9 | ? | ? |
-| uᶜ | 8 | ? | ? |
-| xw | 8 | ? | ? |
-| ŋᴬ | 8 | ? | ? |
-| kʰw | 7 | ? | ? |
-| pw | 7 | ? | ? |
-| sw | 7 | ? | ? |
-| ês | 7 | ? | ? |
-| îh | 7 | ? | ? |
-| ŋᴮ | 7 | ? | ? |
-| zw | 6 | ? | ? |
-| ŋw | 5 | ? | ? |
-| bw | 3 | ? | ? |
-| lh | 3 | ? | ? |
-| tsw | 3 | ? | ? |
-| ḍw | 3 | ? | ? |
-| ṣw | 3 | ? | ? |
+| nh/n̥ | 23 | ✓ | ✓ |
+| <<_>> | 13 | ? | ? |
+| ᴬ/¹ | 13 | ✓ | ✓ |
+| rh/r̥ | 11 | ✓ | ✓ |
+| ʑ | 4 | ✓ | ✓ |
+| ɖ | 3 | ✓ | ✓ |
 | _ | 2 | ✓ | ✓ |
 | ms | 2 | ? | ? |
 | mᴬ | 2 | ? | ? |
-| mᶜ | 2 | ? | ? |
-| nᴬ | 2 | ? | ? |
 | ôs | 2 | ? | ? |
-| ûs | 2 | ? | ? |
 | ńź/ȵ | 2 | ✓ | ✓ |
-| św | 2 | ? | ? |
+| ŋh | 2 | ? | ? |
+| ɛᶜ | 2 | ? | ? |
 | ɨᴮ | 2 | ? | ? |
-| ṣʰw | 2 | ? | ? |
-| aᴬ | 1 | ? | ? |
-| gᴮ | 1 | ? | ? |
-| iː | 1 | ✓ | ✓ |
-| ks | 1 | ? | ? |
+| <<˗>> | 1 | ? | ? |
+| dz | 1 | ✓ | ✓ |
+| ii/i | 1 | ✓ | ✓ |
 | nw | 1 | ? | ? |
-| nǃ | 1 | ? | ? |
-| n˗ | 1 | ? | ? |
-| nᴬǃ | 1 | ? | ? |
-| oᴬ | 1 | ? | ? |
-| ps | 1 | ? | ? |
-| rw | 1 | ? | ? |
-| tsʰw | 1 | ? | ? |
-| uᴬ | 1 | ? | ? |
-| ² | 1 | ✓ | ✓ |
-| âh | 1 | ? | ? |
-| âᴮ | 1 | ? | ? |
-| îs | 1 | ? | ? |
 | ā | 1 | ✓ | ✓ |
-| ŋᶜ | 1 | ? | ? |
-| śʰw | 1 | ? | ? |
-| ɑᴮ | 1 | ? | ? |
-| ɑᶜ | 1 | ? | ? |
+| ə̂i | 1 | ✓ | ✓ |
 | ɦ | 1 | ✓ | ✓ |
-| ɨᶜ | 1 | ? | ? |
-| ṣh | 1 | ? | ? |
+| ʈ | 1 | ✓ | ✓ |
+| ᴬ/² | 1 | ✓ | ✓ |
 | ṭhʰ | 1 | ? | ? |
-| ṭw | 1 | ? | ? |
 
-(145 rows)
+(95 rows)
 
 
 
@@ -176,50 +126,47 @@
 | LateHanChinese-300-NA-1 | LateHanChinese | 300-NA | tṣʰɛk | t <s> ṣ </s> <s> <<ʰ>> </s> ɛ k |
 | LateHanChinese-301-TospearfishZhouli-1 | LateHanChinese | 301-TospearfishZhouli | tṣʰak | t <s> ṣ </s> <s> <<ʰ>> </s> a k |
 | LateHanChinese-304-AforkSW-1 | LateHanChinese | 304-AforkSW | tṣʰɛ | t <s> ṣ </s> <s> <<ʰ>> </s> ɛ |
-| LateHanChinese-305-ForkedbranchofatreeusedforspearingfishSWZhuang-1 | LateHanChinese | 305-ForkedbranchofatreeusedforspearingfishSWZhuang | tṣʰɛᶜ | t <s> ṣ </s> <s> <<ʰ>> </s> <s> ɛᶜ </s> |
+| LateHanChinese-305-ForkedbranchofatreeusedforspearingfishSWZhuang-1 | LateHanChinese | 305-ForkedbranchofatreeusedforspearingfishSWZhuang | tṣʰɛᶜ | t <s> ṣ </s> <s> <<ʰ>> </s> ɛ ᶜ/³ |
 | LateHanChinese-306-DivergencedifferencedistinctionShu-1 | LateHanChinese | 306-DivergencedifferencedistinctionShu | tṣʰai | t <s> ṣ </s> <s> <<ʰ>> </s> a i |
 | LateHanChinese-307-UnevenirregularSWKarlgren195616-1 | LateHanChinese | 307-UnevenirregularSWKarlgren195616 | tṣʰɑi | t <s> ṣ </s> <s> <<ʰ>> </s> ɑ i |
 | LateHanChinese-308-GraduatedofdifferentlengthShi-1 | LateHanChinese | 308-GraduatedofdifferentlengthShi | tṣʰɑi-ḍɑi | t <s> ṣ </s> <s> <<ʰ>> </s> ɑ i + <s> ḍ </s> ɑ i |
-| LateHanChinese-59-ToopenGuiguzi-1 | LateHanChinese | 59-ToopenGuiguzi | pɛᴮ | p <s> ɛᴮ </s> |
-| LateHanChinese-63-FinericeShi-1 | LateHanChinese | 63-FinericeShi | bɛᶜ | b <s> ɛᶜ </s> |
+| LateHanChinese-309-TohuskgrainwithamortarandpestleSW-1 | LateHanChinese | 309-TohuskgrainwithamortarandpestleSW | tṣʰɛp | t <s> ṣ </s> <s> <<ʰ>> </s> ɛ p |
+| LateHanChinese-311-TeaHanperiod-1 | LateHanChinese | 311-TeaHanperiod | ḍa | <s> ḍ </s> a |
+| LateHanChinese-313-ClearawaytreesandbrushesShi-1 | LateHanChinese | 313-ClearawaytreesandbrushesShi | tṣak | t <s> ṣ </s> a k |
+| LateHanChinese-314-CutoffGongyang-1 | LateHanChinese | 314-CutoffGongyang | tṣɑk | t <s> ṣ </s> ɑ k |
+| LateHanChinese-315-ToexamineShu-1 | LateHanChinese | 315-ToexamineShu | tṣʰat | t <s> ṣ </s> <s> <<ʰ>> </s> a t |
+| LateHanChinese-316-ABuddhisttempleborrowedfromSktksetra-1 | LateHanChinese | 316-ABuddhisttempleborrowedfromSktksetra | tṣʰat | t <s> ṣ </s> <s> <<ʰ>> </s> a t |
+| LateHanChinese-318-TopickoutselectegpickhorsesoutofaherdShi-1 | LateHanChinese | 318-TopickoutselectegpickhorsesoutofaherdShi | tṣʰɛ_ | t <s> ṣ </s> <s> <<ʰ>> </s> ɛ |
+| LateHanChinese-319-FirewoodLi-1 | LateHanChinese | 319-FirewoodLi | dẓɛ | d <s> <<ẓ>> </s> ɛ |
+| LateHanChinese-320-ClasscategoryequalsZuooccursalsoinTaiSraai-1 | LateHanChinese | 320-ClasscategoryequalsZuooccursalsoinTaiSraai | dẓɛi | d <s> <<ẓ>> </s> ɛ i |
+| LateHanChinese-325-IrresoluteChuciisperhapscognatetothewfchan-1 | LateHanChinese | 325-IrresoluteChuciisperhapscognatetothewfchan | dźian | d <s> <<ź>> </s> i a n |
+| LateHanChinese-326-BecraggyofrocksonamountainShi-1 | LateHanChinese | 326-BecraggyofrocksonamountainShi | dẓam | d <s> <<ẓ>> </s> a m |
+| LateHanChinese-327-UnevenunequaldisorderZuo-1 | LateHanChinese | 327-UnevenunequaldisorderZuo | dẓam | d <s> <<ẓ>> </s> a m |
+| LateHanChinese-328-MixeddisparateLi-1 | LateHanChinese | 328-MixeddisparateLi | tṣʰamᶜ | t <s> ṣ </s> <s> <<ʰ>> </s> a m ᶜ/³ |
+| LateHanChinese-329-UnevenofvaryinglengthflowersShi-1 | LateHanChinese | 329-UnevenofvaryinglengthflowersShi | tṣʰəm | t <s> ṣ </s> <s> <<ʰ>> </s> ə m |
+| LateHanChinese-330-FarmfarmyardShi-1 | LateHanChinese | 330-FarmfarmyardShi | ḍan | <s> ḍ </s> a n |
+| LateHanChinese-331-TobindwindLie-1 | LateHanChinese | 331-TobindwindLie | ḍan | <s> ḍ </s> a n |
+| LateHanChinese-336-ToopenupmakeclearexplainYiisperhapstheswaschan-1 | LateHanChinese | 336-ToopenupmakeclearexplainYiisperhapstheswaschan | tśʰanᴮ | t <s> ś </s> <s> <<ʰ>> </s> a n ᴮ/² |
+| LateHanChinese-337-SlowdrawnouteasygoingLi-1 | LateHanChinese | 337-SlowdrawnouteasygoingLi | tśʰanᴮ | t <s> ś </s> <s> <<ʰ>> </s> a n ᴮ/² |
+| LateHanChinese-338-RelinquishcedehandoverMeng-1 | LateHanChinese | 338-RelinquishcedehandoverMeng | dźanᶜ | d <s> <<ź>> </s> a n ᶜ/³ |
+| LateHanChinese-339-TobreedbearZuo-1 | LateHanChinese | 339-TobreedbearZuo | ṣɛnᴮ | <s> ṣ </s> ɛ n ᴮ/² |
+| LateHanChinese-341-SplendidprosperousShiisperhapsrelatedtoyanginwhichcasethiswordmightgobacktoearlierkhlaThiswouldbesupportedbyPVMhla-1 | LateHanChinese | 341-SplendidprosperousShiisperhapsrelatedtoyanginwhichcasethiswordmightgobacktoearlierkhlaThiswouldbesupportedbyPVMhla | tśʰɑŋ | t <s> ś </s> <s> <<ʰ>> </s> ɑ ŋ |
+| LateHanChinese-342-LowergarmentSW83410-1 | LateHanChinese | 342-LowergarmentSW83410 | dźɑŋ | d <s> <<ź>> </s> ɑ ŋ |
+| LateHanChinese-343-LowergarmentskirtShi-1 | LateHanChinese | 343-LowergarmentskirtShi | dźɑŋ | d <s> <<ź>> </s> ɑ ŋ |
 | LateHanChinese-76-Petalsofaflowerisalateword14thcentAD-1 | LateHanChinese | 76-Petalsofaflowerisalateword14thcentAD | bɛnᶜ_? | b ɛ <s> nᶜ </s> |
-| MiddleChinese-100-AvoidShiMeng-1 | MiddleChinese | 100-AvoidShiMeng | bjieᶜ_4 | b j i <s> eᶜ </s> |
 | MiddleChinese-101-CupLiMeng-1 | MiddleChinese | 101-CupLiMeng | puậi | p u <s> ậ </s> i |
-| MiddleChinese-105-FillupobstructaholeYi-1 | MiddleChinese | 105-FillupobstructaholeYi | bjiᴮ_3 | b j <s> iᴮ </s> |
 | MiddleChinese-107-DoubleShi-1 | MiddleChinese | 107-DoubleShi | buậiᴮ | b u <s> ậ </s> i ᴮ/² |
 | MiddleChinese-108-ToaugmentdoubleZuo-1 | MiddleChinese | 108-ToaugmentdoubleZuo | buậi | b u <s> ậ </s> i |
 | MiddleChinese-11-ObstructhinderLie-1 | MiddleChinese | 11-ObstructhinderLie | ŋậiᶜ | ŋ <s> ậ </s> i ᶜ/³ |
-| MiddleChinese-110-ReadycompleteperfectShi-1 | MiddleChinese | 110-ReadycompleteperfectShi | bjiᶜ_3 | b j <s> iᶜ </s> |
-| MiddleChinese-113-AcloakZuogeneralderivation35-1 | MiddleChinese | 113-AcloakZuogeneralderivation35 | pʰjieᶜ_3 | pʰ j i <s> eᶜ </s> |
-| MiddleChinese-131-NoseOBMeng-1 | MiddleChinese | 131-NoseOBMeng | biᶜ_4 | b <s> iᶜ </s> |
-| MiddleChinese-132-TosmellinKejiaandMinPMinbiJianoupiXiamenpibi-1 | MiddleChinese | 132-TosmellinKejiaandMinPMinbiJianoupiXiamenpibi | biᶜ_4 | b <s> iᶜ </s> |
-| MiddleChinese-133-TobeassociatingShi-1 | MiddleChinese | 133-TobeassociatingShi | piᴮ_4 | p <s> iᴮ </s> |
-| MiddleChinese-134-ToputtogethermatchassembleShi-1 | MiddleChinese | 134-ToputtogethermatchassembleShi | piᶜ_4 | p <s> iᶜ </s> |
-| MiddleChinese-135-TojoinShu-1 | MiddleChinese | 135-TojoinShu | biᶜ_4 | b <s> iᶜ </s> |
-| MiddleChinese-138-UnripegrainchaffZuo-1 | MiddleChinese | 138-UnripegrainchaffZuo | piᴮ_4 | p <s> iᴮ </s> |
-| MiddleChinese-139-SoreontheheadZhouli-1 | MiddleChinese | 139-SoreontheheadZhouli | pʰjiᴮ_3 | pʰ j <s> iᴮ </s> |
-| MiddleChinese-142-BorderoutskirtsZuo-1 | MiddleChinese | 142-BorderoutskirtsZuo | pjiᴮ_3 | p j <s> iᴮ </s> |
-| MiddleChinese-143-TomakeletsomeonedosomethingcausedirectprovideShiShu-1 | MiddleChinese | 143-TomakeletsomeonedosomethingcausedirectprovideShiShu | pjieᴮ_4 | p j i <s> eᴮ </s> |
-| MiddleChinese-145-AfinecombGY-1 | MiddleChinese | 145-AfinecombGY | bjiᶜ_4 | b j <s> iᶜ </s> |
-| MiddleChinese-147-BubbleupaswaterfromaspringShiisavocalicvariantoffei1151-1 | MiddleChinese | 147-BubbleupaswaterfromaspringShiisavocalicvariantoffei1151 | pjiᶜ_3 | p j <s> iᶜ </s> |
-| MiddleChinese-151-TogiveShi-1 | MiddleChinese | 151-TogiveShi | piᶜ_4 | p <s> iᶜ </s> |
-| MiddleChinese-153-WornoutShi-1 | MiddleChinese | 153-WornoutShi | bjiäiᶜ_4 | b j i ä <s> iᶜ </s> |
-| MiddleChinese-155-ToscreenkeepinignorancedeceiveZuo-1 | MiddleChinese | 155-ToscreenkeepinignorancedeceiveZuo | pjiäiᶜ_4 | p j i ä <s> iᶜ </s> |
 | MiddleChinese-16-DumbsilentMo-1 | MiddleChinese | 16-DumbsilentMo | ʔậm | ʔ <s> ậ </s> m |
-| MiddleChinese-168-TocloseshutShi-1 | MiddleChinese | 168-TocloseshutShi | pjiᶜ_3 | p j <s> iᶜ </s> |
 | MiddleChinese-17-HoldinthemouthputinthemouthGY-1 | MiddleChinese | 17-HoldinthemouthputinthemouthGY | ʔậmᴮ | ʔ <s> ậ </s> m ᴮ/² |
-| MiddleChinese-178-BatanimalSW-1 | MiddleChinese | 178-BatanimalSW | pien˗pjuk | p i e <s> n˗ </s> p j u k |
-| MiddleChinese-186-TodiminishweakenShiMand-1 | MiddleChinese | 186-TodiminishweakenShiMand | pjämᴮ_3 | p j ä <s> mᴮ </s> |
-| MiddleChinese-187-ToloweracoffinintothegraveburyLi-1 | MiddleChinese | 187-ToloweracoffinintothegraveburyLi | pjämᶜ_3 | p j ä <s> mᶜ </s> |
+| MiddleChinese-178-BatanimalSW-1 | MiddleChinese | 178-BatanimalSW | pien˗pjuk | p i e n <s> <<˗>> </s> p j u k |
 | MiddleChinese-188-AcapsymbolofmanhoodShi-1 | MiddleChinese | 188-AcapsymbolofmanhoodShi | bjänᶜ_3 | b j ä <s> nᶜ </s> |
 | MiddleChinese-190-ConvenientLi-1 | MiddleChinese | 190-ConvenientLi | bjiänᶜ_4 | b j i ä <s> nᶜ </s> |
 | MiddleChinese-191-TochangeBIShu-1 | MiddleChinese | 191-TochangeBIShu | pjänᶜ_3 | p j ä <s> nᶜ </s> |
-| MiddleChinese-197-BranchZhuang-1 | MiddleChinese | 197-BranchZhuang | pjiäuᶜ_4 | p j i ä <s> uᶜ </s> |
 | MiddleChinese-202-ToreceiveasaguesttreatasaguestwhichinvolvespresentationofgiftsOBShiSWputthedeadinacoffintobetakenoutandburiedwheretheancestralspiritsguestsmeethimielit-1 | MiddleChinese | 202-ToreceiveasaguesttreatasaguestwhichinvolvespresentationofgiftsOBShiSWputthedeadinacoffintobetakenoutandburiedwheretheancestralspiritsguestsmeethimielit | pjienᶜ_4 | p j i e <s> nᶜ </s> |
 | MiddleChinese-24-RiverbankShi-1 | MiddleChinese | 24-RiverbankShi | xuoᴮ | x u <s> oᴮ </s> |
-| MiddleChinese-248-TowinnowZhuang-1 | MiddleChinese | 248-TowinnowZhuang | puâᶜ | p u <s> âᶜ </s> |
 | MiddleChinese-25-AdeepblackSW-1 | MiddleChinese | 25-AdeepblackSW | ʔậmᴮ | ʔ <s> ậ </s> m ᴮ/² |
-| MiddleChinese-250-TospreadsowpublishShi-1 | MiddleChinese | 250-TospreadsowpublishShi | puâᶜ | p u <s> âᶜ </s> |
 | MiddleChinese-258-TomendrepairassistShi-1 | MiddleChinese | 258-TomendrepairassistShi | puoᴮ | p u <s> oᴮ </s> |
 | MiddleChinese-26-BedarkGuoyualsoreadQYamLiMand-1 | MiddleChinese | 26-BedarkGuoyualsoreadQYamLiMand | ʔậmᶜ | ʔ <s> ậ </s> m ᶜ/³ |
 | MiddleChinese-262-ClothBIShi-1 | MiddleChinese | 262-ClothBIShi | puoᶜ | p u <s> oᶜ </s> |
@@ -248,26 +195,29 @@
 | MiddleChinese-307-UnevenirregularSWKarlgren195616-1 | MiddleChinese | 307-UnevenirregularSWKarlgren195616 | tṣʰjie | t <s> ṣ </s> <s> <<ʰ>> </s> j i e |
 | MiddleChinese-308-GraduatedofdifferentlengthShi-1 | MiddleChinese | 308-GraduatedofdifferentlengthShi | tṣʰjie-ḍjie | t <s> ṣ </s> <s> <<ʰ>> </s> j i e + <s> ḍ </s> j i e |
 | MiddleChinese-309-TohuskgrainwithamortarandpestleSW-1 | MiddleChinese | 309-TohuskgrainwithamortarandpestleSW | tṣʰăp | t <s> ṣ </s> <s> <<ʰ>> </s> ă p |
-| MiddleChinese-35-EightOBShi-1 | MiddleChinese | 35-EightOBShi | pwăt | <s> pw </s> ă t |
+| MiddleChinese-311-TeaHanperiod-1 | MiddleChinese | 311-TeaHanperiod | ḍa | <s> ḍ </s> a |
+| MiddleChinese-312-CuttreesGuoyu-1 | MiddleChinese | 312-CuttreesGuoyu | dẓa | d <s> <<ẓ>> </s> a |
+| MiddleChinese-313-ClearawaytreesandbrushesShi-1 | MiddleChinese | 313-ClearawaytreesandbrushesShi | tṣɐk | t <s> ṣ </s> ɐ k |
+| MiddleChinese-314-CutoffGongyang-1 | MiddleChinese | 314-CutoffGongyang | tṣjak | t <s> ṣ </s> j a k |
+| MiddleChinese-315-ToexamineShu-1 | MiddleChinese | 315-ToexamineShu | tṣʰat | t <s> ṣ </s> <s> <<ʰ>> </s> a t |
+| MiddleChinese-316-ABuddhisttempleborrowedfromSktksetra-1 | MiddleChinese | 316-ABuddhisttempleborrowedfromSktksetra | tṣʰat | t <s> ṣ </s> <s> <<ʰ>> </s> a t |
+| MiddleChinese-318-TopickoutselectegpickhorsesoutofaherdShi-1 | MiddleChinese | 318-TopickoutselectegpickhorsesoutofaherdShi | tṣʰai | t <s> ṣ </s> <s> <<ʰ>> </s> a i |
+| MiddleChinese-319-FirewoodLi-1 | MiddleChinese | 319-FirewoodLi | dẓai | d <s> <<ẓ>> </s> a i |
+| MiddleChinese-320-ClasscategoryequalsZuooccursalsoinTaiSraai-1 | MiddleChinese | 320-ClasscategoryequalsZuooccursalsoinTaiSraai | dẓăi | d <s> <<ẓ>> </s> ă i |
+| MiddleChinese-321-NA-1 | MiddleChinese | 321-NA | dẓăi | d <s> <<ẓ>> </s> ă i |
+| MiddleChinese-326-BecraggyofrocksonamountainShi-1 | MiddleChinese | 326-BecraggyofrocksonamountainShi | dẓam | d <s> <<ẓ>> </s> a m |
+| MiddleChinese-327-UnevenunequaldisorderZuo-1 | MiddleChinese | 327-UnevenunequaldisorderZuo | dẓam | d <s> <<ẓ>> </s> a m |
+| MiddleChinese-328-MixeddisparateLi-1 | MiddleChinese | 328-MixeddisparateLi | tṣʰamᶜ | t <s> ṣ </s> <s> <<ʰ>> </s> a m ᶜ/³ |
+| MiddleChinese-329-UnevenofvaryinglengthflowersShi-1 | MiddleChinese | 329-UnevenofvaryinglengthflowersShi | tṣʰjəm | t <s> ṣ </s> <s> <<ʰ>> </s> j ə m |
+| MiddleChinese-330-FarmfarmyardShi-1 | MiddleChinese | 330-FarmfarmyardShi | ḍjän | <s> ḍ </s> j ä n |
+| MiddleChinese-331-TobindwindLie-1 | MiddleChinese | 331-TobindwindLie | ḍjän | <s> ḍ </s> j ä n |
+| MiddleChinese-336-ToopenupmakeclearexplainYiisperhapstheswaschan-1 | MiddleChinese | 336-ToopenupmakeclearexplainYiisperhapstheswaschan | tśʰjänᴮ | t <s> ś </s> <s> <<ʰ>> </s> j ä n ᴮ/² |
+| MiddleChinese-337-SlowdrawnouteasygoingLi-1 | MiddleChinese | 337-SlowdrawnouteasygoingLi | tśʰjänᴮ | t <s> ś </s> <s> <<ʰ>> </s> j ä n ᴮ/² |
+| MiddleChinese-339-TobreedbearZuo-1 | MiddleChinese | 339-TobreedbearZuo | ṣănᴮ | <s> ṣ </s> ă n ᴮ/² |
+| MiddleChinese-341-SplendidprosperousShiisperhapsrelatedtoyanginwhichcasethiswordmightgobacktoearlierkhlaThiswouldbesupportedbyPVMhla-1 | MiddleChinese | 341-SplendidprosperousShiisperhapsrelatedtoyanginwhichcasethiswordmightgobacktoearlierkhlaThiswouldbesupportedbyPVMhla | tśʰjaŋ | t <s> ś </s> <s> <<ʰ>> </s> j a ŋ |
 | MiddleChinese-4-TopityShiisprobasoundsymbolicword-1 | MiddleChinese | 4-TopityShiisprobasoundsymbolicword | ʔậi | ʔ <s> ậ </s> i |
-| MiddleChinese-44-TopullupuprootbeuprootedYiShu-1 | MiddleChinese | 44-TopullupuprootbeuprootedYiShu | bwăt | <s> bw </s> ă t |
-| MiddleChinese-64-TodistributeBIShu-1 | MiddleChinese | 64-TodistributeBIShu | pwan | <s> pw </s> a n |
-| MiddleChinese-65-VariegatedLimayeitherbetheswasban-1 | MiddleChinese | 65-VariegatedLimayeitherbetheswasban | pwan | <s> pw </s> a n |
-| MiddleChinese-67-BoardplankShi-1 | MiddleChinese | 67-BoardplankShi | pwanᴮ | <s> pw </s> a n ᴮ/² |
-| MiddleChinese-68-GreatofdemeanordomaingodShi-1 | MiddleChinese | 68-GreatofdemeanordomaingodShi | pwanᴮ | <s> pw </s> a n ᴮ/² |
-| MiddleChinese-78-BoardJinshu-1 | MiddleChinese | 78-BoardJinshu | pwâŋᴮ | <s> pw </s> â ŋ ᴮ/² |
 | MiddleChinese-8-TolovetogrudgeShiMand-1 | MiddleChinese | 8-TolovetogrudgeShiMand | ʔậiᶜ | ʔ <s> ậ </s> i ᶜ/³ |
 | MiddleChinese-9-ToloseonesbreathShiisasoundsymbolicword29-1 | MiddleChinese | 9-ToloseonesbreathShiisasoundsymbolicword29 | ʔậiᶜ | ʔ <s> ậ </s> i ᶜ/³ |
-| MiddleChinese-95-NA-1 | MiddleChinese | 95-NA | bjieᴮ_4 | b j i <s> eᴮ </s> |
-| MiddleChinese-97-BeslantingobliqueShuYi-1 | MiddleChinese | 97-BeslantingobliqueShuYi | pjeᶜ_3 | p j <s> eᶜ </s> |
-| OldChinese-122-MountainslidetocollapsedieofaprominentpersonShi-1 | OldChinese | 122-MountainslidetocollapsedieofaprominentpersonShi | pə̂ŋ. | p ə̂ ŋ <s> <?> </s> |
-| OldChinese-215-AhandleofaxeflagShi-1 | OldChinese | 215-AhandleofaxeflagShi | praŋh_? | p r a <s> ŋh </s> |
-| OldChinese-225-BeillsuffersicknessdiseaseShu-1 | OldChinese | 225-BeillsuffersicknessdiseaseShu | braŋh_? | b r a <s> ŋh </s> |
-| OldChinese-305-ForkedbranchofatreeusedforspearingfishSWZhuang-1 | OldChinese | 305-ForkedbranchofatreeusedforspearingfishSWZhuang | tshrêh | tsʰ r <s> êh </s> |
-| OldChinese-63-FinericeShi-1 | OldChinese | 63-FinericeShi | brêh | b r <s> êh </s> |
-| OldChinese-7-WhitehairedoldShipossiblyrelatedtoTBitemsunderyue-1 | OldChinese | 7-WhitehairedoldShipossiblyrelatedtoTBitemsunderyue | ŋâs | ŋ <s> âs </s> |
-| OldChinese-85-TocutuppeelpluckShi-1 | OldChinese | 85-TocutuppeelpluckShi | prôk. | p r ô k <s> <?> </s> |
-| OldChinese-92-TorepayrequiterewardrespondannounceShi-1 | OldChinese | 92-TorepayrequiterewardrespondannounceShi | pûh | p <s> ûh </s> |
 
 (100 rows)
 

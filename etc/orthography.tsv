@@ -144,72 +144,72 @@ s	s	lus_, dzus_	LateHanChinese, OldChinese	29	U+0073
 âᴮ$	â ᴮ/²	tʰuâᴮ, tuâᴮ	MiddleChinese	26	U+00e2 U+1d2e U+0024
 ^khw	khw	khwaŋ, khwâk	OldChinese	26	U+005e U+006b U+0068 U+0077
 nᶜ	nᶜ	denᶜ_, gjenᶜ_3	LateHanChinese, MiddleChinese	24	U+006e U+1d9c
-^nh	nh	nhaʔ_?, nhep	OldChinese	23	U+005e U+006e U+0068
-^ʔw	ʔw	ʔwâŋ, ʔwai	OldChinese, MiddleChinese, LateHanChinese	23	U+005e U+0294 U+0077
-iᶜ	iᶜ	biᶜ_4, gjwiᶜ_3	MiddleChinese	22	U+0069 U+1d9c
+^nh	nh/n̥	nhaʔ_?, nhep	OldChinese	23	U+005e U+006e U+0068
+^ʔw	ʔ w	ʔwâŋ, ʔwai	OldChinese, MiddleChinese, LateHanChinese	23	U+005e U+0294 U+0077
+iᶜ	i ᶜ/³	biᶜ_4, gjwiᶜ_3	MiddleChinese	22	U+0069 U+1d9c
 ê$	ê	dê, ʔwrê	OldChinese	22	U+00ea U+0024
 d	d	tshrai-drai, dek-de	OldChinese, LateHanChinese, MiddleChinese	21	U+0064
-ôh$	ôh	kôh, gôh	OldChinese	20	U+00f4 U+0068 U+0024
-^hw	hw	hwan, hwaŋh	OldChinese, LateHanChinese	20	U+005e U+0068 U+0077
+ôh$	ô h/²	kôh, gôh	OldChinese	20	U+00f4 U+0068 U+0024
+^hw	h w	hwan, hwaŋh	OldChinese, LateHanChinese	20	U+005e U+0068 U+0077
 p	p	jäp_3, pien˗pjuk	OldChinese, LateHanChinese, MiddleChinese	19	U+0070
 ô$	ô	gô, lô	OldChinese	19	U+00f4 U+0024
 ə̂$	ə̂	mə̂, lhə̂	OldChinese	18	U+0259 U+0302 U+0024
-âᶜ$	âᶜ	puâᶜ, tsʰuâᶜ	MiddleChinese	18	U+00e2 U+1d9c U+0024
-iᴮ	iᴮ	piᴮ_4, kjwiᴮ_3	MiddleChinese, LateHanChinese	16	U+0069 U+1d2e
+âᶜ$	â ᶜ/³	puâᶜ, tsʰuâᶜ	MiddleChinese	18	U+00e2 U+1d9c U+0024
+iᴮ	i ᴮ/²	piᴮ_4, kjwiᴮ_3	MiddleChinese, LateHanChinese	16	U+0069 U+1d2e
 ns	n s	bans_, lins_?	OldChinese	15	U+006e U+0073
-eᴮ	eᴮ	mjieᴮ_4, mjeᴮ_3	MiddleChinese, LateHanChinese	14	U+0065 U+1d2e
+eᴮ	e ᴮ/²	mjieᴮ_4, mjeᴮ_3	MiddleChinese, LateHanChinese	14	U+0065 U+1d2e
 î$	î	dzî, krî	OldChinese	14	U+00ee U+0024
-uᴮ	uᴮ	kjäuᴮ_3, ʔjieuᴮ_4	MiddleChinese, LateHanChinese	14	U+0075 U+1d2e
-.	<?>	mâkh., grêʔ_PMin_heᴮ.	OldChinese, LateHanChinese, MiddleChinese	13	U+002e
-âs$	âs	kwâs, gwâs	OldChinese	12	U+00e2 U+0073 U+0024
-êh$	êh	dêh, kêh	OldChinese	12	U+00ea U+0068 U+0024
-^rh	rh	rhaiʔ, rhə̂m	OldChinese	11	U+005e U+0072 U+0068
-eᶜ	eᶜ	pʰjieᶜ_3, xjeᶜ_3	MiddleChinese, LateHanChinese	10	U+0065 U+1d9c
-ûh$	ûh	mûh, lûh	OldChinese	9	U+00fb U+0068 U+0024
-mᴮ	mᴮ	ʔjämᴮ_3, ʔjiämᴮ_4	MiddleChinese, LateHanChinese	9	U+006d U+1d2e
-ŋh	ŋh	kaŋh_?, lhəŋh_?	OldChinese	9	U+014b U+0068
-^mw	mw	mwâŋ, mwâŋᴮ	MiddleChinese	9	U+005e U+006d U+0077
-ɛᴮ$	ɛᴮ	gɛᴮ, kɛᴮ	LateHanChinese	8	U+025b U+1d2e U+0024
+uᴮ	u ᴮ/²	kjäuᴮ_3, ʔjieuᴮ_4	MiddleChinese, LateHanChinese	14	U+0075 U+1d2e
+.	NULL	mâkh., grêʔ_PMin_heᴮ.	OldChinese, LateHanChinese, MiddleChinese	13	U+002e
+âs$	â s	kwâs, gwâs	OldChinese	12	U+00e2 U+0073 U+0024
+êh$	ê h/³	dêh, kêh	OldChinese	12	U+00ea U+0068 U+0024
+^rh	rh/r̥	rhaiʔ, rhə̂m	OldChinese	11	U+005e U+0072 U+0068
+eᶜ	e ᶜ/³	pʰjieᶜ_3, xjeᶜ_3	MiddleChinese, LateHanChinese	10	U+0065 U+1d9c
+ûh$	û h	mûh, lûh	OldChinese	9	U+00fb U+0068 U+0024
+mᴮ	m ᴮ/²	ʔjämᴮ_3, ʔjiämᴮ_4	MiddleChinese, LateHanChinese	9	U+006d U+1d2e
+ŋh	ŋh/ŋ̊	kaŋh_?, lhəŋh_?	OldChinese	9	U+014b U+0068
+^mw	m w	mwâŋ, mwâŋᴮ	MiddleChinese	9	U+005e U+006d U+0077
+ɛᴮ$	ɛ ᴮ/²	gɛᴮ, kɛᴮ	LateHanChinese	8	U+025b U+1d2e U+0024
 ts	ts	ṣi-tsiəʔ, trəts_?	OldChinese, LateHanChinese, MiddleChinese	8	U+0074 U+0073
-uᶜ	uᶜ	pjiäuᶜ_4, mjiäuᶜ_4	MiddleChinese	8	U+0075 U+1d9c
-ŋᴬ$	ŋᴬ	mjwaŋᴬ, śjaŋᴬ	MiddleChinese, OldChinese, LateHanChinese	8	U+014b U+1d2c U+0024
-^pw	pw	pwan, pwanᴮ	MiddleChinese	7	U+005e U+0070 U+0077
-ɛᶜ$	ɛᶜ	kɛᶜ, tṣʰɛᶜ	LateHanChinese	7	U+025b U+1d9c U+0024
+uᶜ	u ᶜ/³	pjiäuᶜ_4, mjiäuᶜ_4	MiddleChinese	8	U+0075 U+1d9c
+ŋᴬ$	ŋ ᴬ/¹	mjwaŋᴬ, śjaŋᴬ	MiddleChinese, OldChinese, LateHanChinese	8	U+014b U+1d2c U+0024
+^pw	p w	pwan, pwanᴮ	MiddleChinese	7	U+005e U+0070 U+0077
+ɛᶜ$	ɛ ᶜ/³	kɛᶜ, tṣʰɛᶜ	LateHanChinese	7	U+025b U+1d9c U+0024
 kh	kʰ	khêt-khôt, takh_?	OldChinese	7	U+006b U+0068
-^xw	xw	xwâŋ, xwaᶜ	MiddleChinese	7	U+005e U+0078 U+0077
-^kʰw	kʰw	kʰwâk, kʰwa	MiddleChinese, OldChinese	7	U+005e U+006b U+02b0 U+0077
-ŋᴮ	ŋᴮ	muɑŋᴮ-ziɑŋᴮ_, mjwaŋᴮ-ljaŋᴮ	LateHanChinese, MiddleChinese	7	U+014b U+1d2e
-^sw	sw	swin, swieᴮ	OldChinese, MiddleChinese	7	U+005e U+0073 U+0077
+^xw	x w	xwâŋ, xwaᶜ	MiddleChinese	7	U+005e U+0078 U+0077
+^kʰw	kʰ w	kʰwâk, kʰwa	MiddleChinese, OldChinese	7	U+005e U+006b U+02b0 U+0077
+ŋᴮ	ŋ ᴮ/²	muɑŋᴮ-ziɑŋᴮ_, mjwaŋᴮ-ljaŋᴮ	LateHanChinese, MiddleChinese	7	U+014b U+1d2e
+^sw	s w	swin, swieᴮ	OldChinese, MiddleChinese	7	U+005e U+0073 U+0077
 ɛ$	ɛ	ʔuɛ, kɛ	LateHanChinese	6	U+025b U+0024
 ḍ	ḍ	tṣʰɑi-ḍɑi, ʔyɑi-ḍi	LateHanChinese, MiddleChinese	6	U+1e0d
-îh$	îh	dîh, sîh	OldChinese	6	U+00ee U+0068 U+0024
-^ŋw	ŋw	ŋwan, ŋwaᴮ	OldChinese, MiddleChinese	5	U+005e U+014b U+0077
+îh$	î h/²	dîh, sîh	OldChinese	6	U+00ee U+0068 U+0024
+^ŋw	ŋ w	ŋwan, ŋwaᴮ	OldChinese, MiddleChinese	5	U+005e U+014b U+0077
 b	b	bi-bu, bi_4-bjəu	OldChinese, LateHanChinese, MiddleChinese	5	U+0062
 ^u	u	-uh, -uʔ	OldChinese	5	U+005e U+0075
-3	<?>	jäm_3_, ʔjwie_3-jie	MiddleChinese	5	U+0033
-?	<?>	lheʔ_?_, slat_?_	OldChinese	5	U+003f
+3	NULL	jäm_3_, ʔjwie_3-jie	MiddleChinese	5	U+0033
+?	NULL	lheʔ_?_, slat_?_	OldChinese	5	U+003f
 g	g	grêh-gôh, gɛᶜ-goᶜ	MiddleChinese, OldChinese, LateHanChinese	4	U+0067
-^źw	<?>	źwieᶜ, źwi	MiddleChinese	4	U+005e U+017a U+0077
+^źw	ʑ w	źwieᶜ, źwi	MiddleChinese	4	U+005e U+017a U+0077
 ń	ń	ńźju-ńźie, ljɨᴮ-ńźɨᴮ	LateHanChinese, MiddleChinese	4	U+0144
-oᴮ	oᴮ	boᴮ-loᴮ, xuoᴮ-pʰɐk	LateHanChinese, MiddleChinese	4	U+006f U+1d2e
+oᴮ	o ᴮ/²	boᴮ-loᴮ, xuoᴮ-pʰɐk	LateHanChinese, MiddleChinese	4	U+006f U+1d2e
 kʰ	kʰ	sɨ-kʰuŋ, kʰiat-kʰuât	LateHanChinese, MiddleChinese	4	U+006b U+02b0
-ês$	ês	krês, rês	OldChinese	4	U+00ea U+0073 U+0024
-^bw	bw	bwâŋ, bwăt	MiddleChinese	3	U+005e U+0062 U+0077
-lh	lh	s-lhaŋ, k-lhak	OldChinese	3	U+006c U+0068
-^ḍw	ḍw	ḍwie, ḍwieᶜ	MiddleChinese	3	U+005e U+1e0d U+0077
-ês	ês	krês_?, tês-tôŋ	OldChinese	3	U+00ea U+0073
-^ṣw	ṣw	ṣwiᶜ, ṣwanᶜ	MiddleChinese	3	U+005e U+1e63 U+0077
-zw	zw	dzwiᶜ, dzwan_	MiddleChinese, OldChinese	3	U+007a U+0077
+ês$	ê s	krês, rês	OldChinese	4	U+00ea U+0073 U+0024
+^bw	b w	bwâŋ, bwăt	MiddleChinese	3	U+005e U+0062 U+0077
+lh	lh/l̥	s-lhaŋ, k-lhak	OldChinese	3	U+006c U+0068
+^ḍw	ɖ w	ḍwie, ḍwieᶜ	MiddleChinese	3	U+005e U+1e0d U+0077
+ês	ê s	krês_?, tês-tôŋ	OldChinese	3	U+00ea U+0073
+^ṣw	ṣ w	ṣwiᶜ, ṣwanᶜ	MiddleChinese	3	U+005e U+1e63 U+0077
+zw	z w	dzwiᶜ, dzwan_	MiddleChinese, OldChinese	3	U+007a U+0077
 ^ə	ə	-ək, -əmʔ	OldChinese	3	U+005e U+0259
-^zw	zw	zwiᶜ, zwie	MiddleChinese	3	U+005e U+007a U+0077
-^tsw	tsw	tswieᴮ_?, tswieᴮ	MiddleChinese	3	U+005e U+0074 U+0073 U+0077
-mᶜ	mᶜ	ʔjiämᶜ_4, pjämᶜ_3	MiddleChinese	2	U+006d U+1d9c
-ṣʰw	ṣʰw	tṣʰwie, tṣʰwanᶜ	MiddleChinese	2	U+1e63 U+02b0 U+0077
-^?	<?>	?-aʔ, ?-a	OldChinese	2	U+005e U+003f
-ûs$	ûs	thûs, lûs	OldChinese	2	U+00fb U+0073 U+0024
-4	<?>	jiäm_4_, bi_4-bjəu	MiddleChinese	2	U+0034
+^zw	z w	zwiᶜ, zwie	MiddleChinese	3	U+005e U+007a U+0077
+^tsw	ts w	tswieᴮ_?, tswieᴮ	MiddleChinese	3	U+005e U+0074 U+0073 U+0077
+mᶜ	m ᶜ/³	ʔjiämᶜ_4, pjämᶜ_3	MiddleChinese	2	U+006d U+1d9c
+tṣʰw	ʈʂʰ w	tṣʰwie, tṣʰwanᶜ	MiddleChinese	2	U+1e63 U+02b0 U+0077
+^?-	NULL	?-aʔ, ?-a	OldChinese	2	U+005e U+003f
+ûs$	û s	thûs, lûs	OldChinese	2	U+00fb U+0073 U+0024
+4	NULL	jiäm_4_, bi_4-bjəu	MiddleChinese	2	U+0034
 ɛᶜ	ɛᶜ	kuɛᶜ_?, gɛᶜ-goᶜ	LateHanChinese	2	U+025b U+1d9c
-^?$	<?>	?	OldChinese, MiddleChinese	2	U+005e U+003f U+0024
+^?$	NULL	?	OldChinese, MiddleChinese	2	U+005e U+003f U+0024
 ɣ	ɣ	ɣaɨᶜ-ɣəuᶜ, dẓɛŋ-ɣuɛŋ	LateHanChinese, MiddleChinese	2	U+0263
 ms	ms	krims_?, gâms_?	OldChinese	2	U+006d U+0073
 ^k$	k	k	LateHanChinese, MiddleChinese	2	U+005e U+006b U+0024
@@ -220,60 +220,57 @@ ms	ms	krims_?, gâms_?	OldChinese	2	U+006d U+0073
 mᴬ$	mᴬ	ljämᴬ, śjəmᴬ	MiddleChinese	2	U+006d U+1d2c U+0024
 ^ŋh	ŋh	ŋhets, ŋhiau	OldChinese	2	U+005e U+014b U+0068
 ^o	o	-oh, -oŋ	OldChinese	2	U+005e U+006f
-źw	<?>	ńźwieᴮ, ńźwi	MiddleChinese	2	U+017a U+0077
-n˗	n˗	pien˗pjuk	MiddleChinese	1	U+006e U+02d7
+ńźw	ȵ	ńźwieᴮ, ńźwi	MiddleChinese	2	U+017a U+0077
+n	n	pien˗pjuk	MiddleChinese	1	U+006e U+02d7
+-	+
 ^ṭhʰ	ṭhʰ	ṭhʰu	LateHanChinese	1	U+005e U+1e6d U+0068 U+02b0
-śʰw	śʰw	tśʰwiᶜ	MiddleChinese	1	U+015b U+02b0 U+0077
-ṣh	ṣh	tṣhjwoᴮ	MiddleChinese	1	U+1e63 U+0068
-^tsʰw	tsʰw	tsʰwiᶜ	MiddleChinese	1	U+005e U+0074 U+0073 U+02b0 U+0077
-n!$	nǃ	dzən!	LateHanChinese	1	U+006e U+0021 U+0024
-oᶜ	oᶜ	buoᶜ-loᴮ	LateHanChinese	1	U+006f U+1d9c
-nᴬ$	nᴬ	gânᴬ	OldChinese	1	U+006e U+1d2c U+0024
-^=	<?>	=_-kʰoŋ	LateHanChinese	1	U+005e U+003d
-ɑᶜ	ɑᶜ	kɑᶜ_?	LateHanChinese	1	U+0251 U+1d9c
-âᴮ	âᴮ	kuâᴮ-luâᴮ	MiddleChinese	1	U+00e2 U+1d2e
+tśʰw	tɕʰ w	tśʰwiᶜ	MiddleChinese	1	U+015b U+02b0 U+0077
+tṣh	tʂʰ	tṣhjwoᴮ	MiddleChinese	1	U+1e63 U+0068
+^tsʰw	tsʰ w	tsʰwiᶜ	MiddleChinese	1	U+005e U+0074 U+0073 U+02b0 U+0077
+n!$	n	dzən!	LateHanChinese	1	U+006e U+0021 U+0024
+oᶜ	o ᶜ/³	buoᶜ-loᴮ	LateHanChinese	1	U+006f U+1d9c
+nᴬ$	n ᴬ/¹	gânᴬ	OldChinese	1	U+006e U+1d2c U+0024
+^=_-	NULL	=_-kʰoŋ	LateHanChinese	1	U+005e U+003d
+ɑᶜ	ɑ ᶜ/³	kɑᶜ_?	LateHanChinese	1	U+0251 U+1d9c
+âᴮ	â ᴮ/²	kuâᴮ-luâᴮ	MiddleChinese	1	U+00e2 U+1d2e
 pʰ	pʰ	xuoᴮ-pʰɐk	MiddleChinese	1	U+0070 U+02b0
-rw	rw	khrwâ	OldChinese	1	U+0072 U+0077
-âh	âh	wrâh_?	OldChinese	1	U+00e2 U+0068
+rw	r w	khrwâ	OldChinese	1	U+0072 U+0077
+âh	â h/²	wrâh_?	OldChinese	1	U+00e2 U+0068
 ^g$	g	g	MiddleChinese	1	U+005e U+0067 U+0024
-ɨᶜ	ɨᶜ	ɣaɨᶜ-ɣəuᶜ	MiddleChinese	1	U+0268 U+1d9c
-êh	êh	grêh-gôh	OldChinese	1	U+00ea U+0068
-aᴬ$	aᴬ	kaᴬ	OldChinese	1	U+0061 U+1d2c U+0024
-…$	<?>	tsa_…	OldChinese	1	U+2026 U+0024
-ɑᴮ	ɑᴮ	gɨɑᴮ-ṇɑᴮ	LateHanChinese	1	U+0251 U+1d2e
-ks$	ks	krûks	OldChinese	1	U+006b U+0073 U+0024
-^凱$	<?>	凱	MiddleChinese	1	U+005e U+51f1 U+0024
-nᴬ	nᴬ	ljänᴬ²	MiddleChinese	1	U+006e U+1d2c
-²$	²	ljänᴬ²	MiddleChinese	1	U+00b2 U+0024
-gᴮ$	gᴮ	ljängᴮ	MiddleChinese	1	U+0067 U+1d2e U+0024
+ɨᶜ	ɨ ᶜ/³	ɣaɨᶜ-ɣəuᶜ	MiddleChinese	1	U+0268 U+1d9c
+êh	ê h/²	grêh-gôh	OldChinese	1	U+00ea U+0068
+aᴬ$	a ᴬ/¹	kaᴬ	OldChinese	1	U+0061 U+1d2c U+0024
+_…$	NULL	tsa_…	OldChinese	1	U+2026 U+0024
+ɑᴮ	ɑ ᴮ/²	gɨɑᴮ-ṇɑᴮ	LateHanChinese	1	U+0251 U+1d2e
+ks$	k s	krûks	OldChinese	1	U+006b U+0073 U+0024
+^凱$		凱	MiddleChinese	1	U+005e U+51f1 U+0024
+nᴬ²	n ᴬ/²	ljänᴬ²	MiddleChinese	1	U+006e U+1d2c
+gᴮ$	g ᴮ/²	ljängᴮ	MiddleChinese	1	U+0067 U+1d2e U+0024
 ā	ā	rāʔ	OldChinese	1	U+0101
-nᴬ!$	nᴬǃ	mrənᴬ!	OldChinese	1	U+006e U+1d2c U+0021 U+0024
+nᴬ!$	n ᴬ/¹	mrənᴬ!	OldChinese	1	U+006e U+1d2c U+0021 U+0024
 ^nw	nw	nwan	MiddleChinese	1	U+005e U+006e U+0077
-L	<?>	nɨᴮ_LH	MiddleChinese	1	U+004c
-H$	<?>	nɨᴮ_LH	MiddleChinese	1	U+0048 U+0024
-îh	îh	nîh_	OldChinese	1	U+00ee U+0068
-âᶜ	âᶜ	nuâᶜ_	MiddleChinese	1	U+00e2 U+1d9c
-xw	xw	pʰuânᶜ-xwânᶜ	MiddleChinese	1	U+0078 U+0077
-ŋᶜ	ŋᶜ	bɐŋᶜ_	MiddleChinese	1	U+014b U+1d9c
-ii	iː	bjii_4	MiddleChinese	1	U+0069 U+0069
-I	<?>	dzə̂I_	OldChinese	1	U+0049
-^翹$	<?>	翹	MiddleChinese	1	U+005e U+7ff9 U+0024
-^św	św	świᴮ	MiddleChinese	1	U+005e U+015b U+0077
+_LH	NULL	nɨᴮ_LH	MiddleChinese	1	U+004c
+îh	î h/²	nîh_	OldChinese	1	U+00ee U+0068
+âᶜ	â ᶜ/³	nuâᶜ_	MiddleChinese	1	U+00e2 U+1d9c
+xw	x w	pʰuânᶜ-xwânᶜ	MiddleChinese	1	U+0078 U+0077
+ŋᶜ	ŋ ᶜ/³	bɐŋᶜ_	MiddleChinese	1	U+014b U+1d9c
+ii	ii/i	bjii_4	MiddleChinese	1	U+0069 U+0069
+^dzə̂I_	dz ə̂i	dzə̂I_	OldChinese	1	U+0049
+^św	ś w	świᴮ	MiddleChinese	1	U+005e U+015b U+0077
 tʰ	tʰ	tʰiek-tʰiek	MiddleChinese	1	U+0074 U+02b0
-ź$	<?>	dź	LateHanChinese	1	U+017a U+0024
-îs$	îs	wîs	OldChinese	1	U+00ee U+0073 U+0024
-^iᶜ$	iᶜ	iᶜ	MiddleChinese	1	U+005e U+0069 U+1d9c U+0024
-^C	<?>	C-siauh_?	OldChinese	1	U+005e U+0043
-P	<?>	grêʔ_PMin_heᴮ.	OldChinese	1	U+0050
-M	<?>	grêʔ_PMin_heᴮ.	OldChinese	1	U+004d
-oᴬ$	oᴬ	sjwoᴬ	MiddleChinese	1	U+006f U+1d2c U+0024
+dź$	dʑ	dź	LateHanChinese	1	U+017a U+0024
+îs$	î s	wîs	OldChinese	1	U+00ee U+0073 U+0024
+^iᶜ$	i ᶜ/³	iᶜ	MiddleChinese	1	U+005e U+0069 U+1d9c U+0024
+^C-	NULL	C-siauh_?	OldChinese	1	U+005e U+0043
+_PMin_heᴮ.$	NULL	grêʔ_PMin_heᴮ.	OldChinese	1	U+0050
+oᴬ$	o ᴬ/¹	sjwoᴬ	MiddleChinese	1	U+006f U+1d2c U+0024
 ^e	e	either_jap	LateHanChinese	1	U+005e U+0065
 th	tʰ	either_jap	LateHanChinese	1	U+0074 U+0068
-th$	tʰ	ʔîth	OldChinese	1	U+0074 U+0068 U+0024
+th$	t h/²	ʔîth	OldChinese	1	U+0074 U+0068 U+0024
 ^ɦ	ɦ	ɦâ	OldChinese	1	U+005e U+0266
-nh$	nh	ʔunh	OldChinese	1	U+006e U+0068 U+0024
-ps	ps	təps_?	OldChinese	1	U+0070 U+0073
-ɛᴮ	ɛᴮ	ḍɛᴮ_?	LateHanChinese	1	U+025b U+1d2e
-uᴬ$	uᴬ	tṣauᴬ	MiddleChinese	1	U+0075 U+1d2c U+0024
-św	św	tświ	MiddleChinese	1	U+015b U+0077
-^ṭw	ṭw	ṭwi	MiddleChinese	1	U+005e U+1e6d U+0077
+nh$	n h/²	ʔunh	OldChinese	1	U+006e U+0068 U+0024
+ps	p s	təps_?	OldChinese	1	U+0070 U+0073
+ɛᴮ	ɛ ᴮ/²	ḍɛᴮ_?	LateHanChinese	1	U+025b U+1d2e
+uᴬ$	u ᴬ/¹	tṣauᴬ	MiddleChinese	1	U+0075 U+1d2c U+0024
+tśw	tɕ w	tświ	MiddleChinese	1	U+015b U+0077
+^ṭw	ʈ w	ṭwi	MiddleChinese	1	U+005e U+1e6d U+0077

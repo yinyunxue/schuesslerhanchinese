@@ -54,12 +54,12 @@ class Dataset(BaseDataset):
     concept_class = CustomConcept
     #language_class = CustomLanguage
     form_spec = FormSpec(
-          missing_data=["", "--"],
-          replacements=[(" ", "_"), ("*", ""), ("_!", "")],
-          separators=";/,<~>|",
-          brackets={"(": ")", "[": "]"},
-          strip_inside_brackets=True,
-          first_form_only=True
+            missing_data=["", "--", "?", "凱", "翹"],
+            replacements=[(" ", "_"), ("*", ""), ("_!", "")],
+            separators=";/,<~>|",
+            brackets={"(": ")", "[": "]"},
+            strip_inside_brackets=True,
+            first_form_only=True
       )
     def cmd_download(self, **kw):
         self.raw_dir.write("sources.bib", getEvoBibAsBibtex("Schuessler2007", **kw))
