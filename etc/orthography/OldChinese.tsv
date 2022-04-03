@@ -1,49 +1,151 @@
 Grapheme	IPA	Frequency
- 	?	8845
-^	NULL	3696
-$	NULL	3696
-h	h	1090
-k	k	1002
-ʔ	ʔ	916
-r	r	870
-t	t	849
-s	s	827
-a	a	782
-n	n	774
-ŋ	ŋ	697
-ə	ə	681
-â	â/a	629
-i	i	592
-m	m	467
-u	u	442
-l	l	372
-d	d	342
-p	p	326
-_	NULL	311
-w	w	274
-o	o	250
-ô	ô/o	241
-ê	ê/e	236
-g	g	234
-̂	?	232
-?	NULL	225
-e	e	180
-û	û/u	172
--	+	162
-b	b	147
-z	z	112
-î	î/i	89
-j	j	47
-ʰ	?	13
-.	NULL	11
-ᴬ	ᴬ/¹	5
-ᴮ	ᴮ/²	2
-…	?	1
+ʔ$	ʔ	675
+r	r	653
+a	a	577
+â	â/a	483
+ə	ə	355
+k$	k	347
+^k	k	346
+^d	d	334
+ŋ$	ŋ	332
+i	i	291
+n$	n	272
+u	u	255
+^t	t	249
+^s	s	247
+^m	m	217
+t$	t	214
+_?$	NULL	214
+h$	h	208
+^r	r	205
+^g	g	203
+ə̂	ə̂/ə	196
+ê	ê/e	193
+o	o	191
+^l	l	184
+ô	ô/o	175
+^p	p	174
+$	NULL	170
+n	n	169
+e	e	161
+ŋ	ŋ	149
+ns$	n s	147
+-	+	147
+^ʔ	ʔ	145
+^b	b	145
+^n	n	144
+^ts	ts	127
+m	m	118
+^w	w	116
+^kh	kʰ	115
+û	û/u	111
+z	z	110
+^ŋ	ŋ	107
+m$	m	97
+^h	h	97
+u$	u	93
+l	l	93
+ŋh$	ŋh/ŋ̊	92
+^lh	lh/l̥	92
+^tsh	tsʰ	88
+_$	NULL	86
+p$	p	82
+ts$	ts	79
+ʔ	ʔ	79
+au	au	75
+ai	ai	69
+kh$	k h/²	68
+î	î/i	67
+a$	a	60
+^ph	pʰ	57
+âi	âi/ai	53
+əi	əi	53
+^th	tʰ	52
+â$	â/a	50
+^kw	kʷ	49
+o$	o	43
+ə$	ə	41
+k	k	37
+h	h	37
+^j	j	36
+s$	s	35
+ms$	m s	33
+û$	û/u	31
+âh$	â/a h/³	30
+^gw	g w	30
+i$	i	27
+^khw	kʰ w	26
+t	t	25
+ôi	ôi/oi	25
+^nh	nh/n̥	23
+ê$	ê/e	22
+ôh$	ô/o h/²	20
+ûi	ûi/ui	19
+ô$	ô/o	19
+ui	ui	19
+e$	e	18
+ə̂$	ə̂/ə	18
+ə̂i	ə̂i/əi	17
+^hw	h w	17
+^ʔw	ʔ w	17
+oi	oi	16
+ns	n s	15
+î$	î/i	14
+âs$	â s	12
+êh$	ê/e h/³	12
+^-	NULL	12
+p	p	11
+^rh	rh/r̥	11
+j	j	11
+s	s	11
+.	NULL	10
+ŋh	ŋh/ŋ̊	10
+ûh$	û/u h	9
+kh	kʰ	9
+?	NULL	9
+w	w	8
+d	d	7
+ts	ts	6
+^tsʰ	tsʰ	6
+îh$	î/i h/²	6
+_	NULL	5
+^sw	s w	5
+ês$	ê/e s	4
+lh	lh/l̥	3
+^kʰ	kʰ	3
+ês	ê s	3
+^ŋw	ŋ w	3
+^?-	NULL	2
+^tʰ	tʰ	2
+ûs$	û/u s	2
+b	b	2
+ms	m s	2
+ôs$	ô/o s	2
+^_	NULL	2
+^ŋh	ŋh/ŋ̊	2
+ŋᴬ$	ŋ ᴬ/¹	2
+^pʰ	pʰ	1
+nᴬ$	n ᴬ/¹	1
+rw	r w	1
+âh	â/a h/²	1
+êh	ê/e h/²	1
+g	g	1
+aᴬ$	a ᴬ/¹	1
+_…$	NULL	1
+ks$	k s	1
+^kʰw	kʰ w	1
 ā	ā/a	1
-!	?	1
-I	?	1
-ṣ	ʂ	1
-C	?	1
-P	?	1
-M	?	1
-ɦ	?	1
+nᴬ!$	n ᴬ/¹	1
+îh	î/i h/²	1
+êi	êi/ei	1
+^dzə̂I_	dz ə̂i/əi	1
+zw	z w	1
+iᴮ$	i ᴮ/²	1
+^ṣ	ʂ	1
+îs$	î/i s	1
+^C-	NULL	1
+_PMin_heᴮ.$	NULL	1
+th$	t h/²	1
+^ɦ	ɦ	1
+nh$	n h/²	1
+ps	p s	1
