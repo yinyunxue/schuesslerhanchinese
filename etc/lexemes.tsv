@@ -1,10 +1,32 @@
 LEXEME	REPLACEMENT	COMMENT
+*?-a	*?→a	
+*?-aʔ	*aʔ	
 *C-siauh ?	*C-siauh ?	
+*C-siauh ?	*C→siauh	
 *ba or *pa ?	*ba	
 *ba(t)s or *bos ?	*ba(t)s	
 *banʔ or *brenʔ ?	banʔ	
 *bô ? or *bə̂ ?	bô	
+*d-la	*d→la	
+*d-lah	*d→lah	
+*d-lai	*d→lai	
+*d-laiʔ	*d→laiʔ	
+*d-lak	*d→lak	
+*d-lats	*d→lats	
+*d-lauʔ	*d→lauʔ	
+*d-laŋ	*d→laŋ	
+*d-leŋ,*t-hleŋ	*d→leŋ,*t-hleŋ	
+*d-liauk	*d→liauk	
+*d-liaukh	*d→liaukh	
+*d-linʔ	*d→linʔ	
+*d-liuh	*d→liuh	
 *d-luh or *d-juh ?	*d-luh	
+*d-luh or *d-juh ?	*d→luh?	
+*d-luŋ,*lûŋ	*d→luŋ	
+*d-lâ	*d→lâ	
+*d-ləh	*d→ləh	
+*d-ləm	*d→ləm	
+*d-ləms	*d→ləms	
 *dah or *djah?	*dah	
 *daŋ or *djaŋ ?	*daŋ	
 *daŋh or *diaŋh ?	*daŋh	
@@ -14,6 +36,7 @@ LEXEME	REPLACEMENT	COMMENT
 *deŋh or *geŋh ?	*deŋh	
 *doih or *djoih ?	*doih	
 *driu-mriu	*driu-mriu	
+*driu-mriu	driu	
 *dzreŋ-wreŋ ?	*dzreŋ-wreŋ ?	
 *dzrî or *dzrə̂i	*dzrî	
 *dzî or *dzə̂i(ʔ/h)	*dzî	
@@ -23,6 +46,8 @@ LEXEME	REPLACEMENT	COMMENT
 *dîh or *də̂ih	*dîh	
 *dək or *diək ?	*dək	
 *dək or *drəkh	*dək	
+*g-ramʔ	*g→ramʔ	
+*g-râms	*g→râms	
 *ga-nraʔ ?	*ga-nraʔ ?	
 *gra-mra or *ga-ma?	*gra-mra	
 *grui or *gwrə ?	*grui	
@@ -31,7 +56,6 @@ LEXEME	REPLACEMENT	COMMENT
 *gwans or *g(i)ons	*gwans	
 *gwrâ(t)s or *grô(t)s	*gwrâ(t)s	
 *gwâ(t) or *gô(t)s	*gwâ(t)	
-*gwâ(t)s or *gô(t)s	*gwâ(t)s	
 *gwâ(t)s or *gô(t)s	*gwâ(t)s	
 *gwâiʔ or *gôiʔ	*gwâiʔ	
 *gwâns or *gôns	*gwâns	
@@ -44,7 +68,6 @@ LEXEME	REPLACEMENT	COMMENT
 *hâmʔ or *hrə̂mʔ ?	*hâmʔ	
 *hŋəp or *həp	*hŋəp	
 *jaŋ or *laŋ	*jaŋ	
-*jaŋ or *laŋ	*jaŋ	
 *jaŋ or *laŋ ?	*jaŋ	
 *jaŋh or *laŋh ?	*jaŋh	
 *jaŋʔ or *laŋʔ ?	*jaŋʔ	
@@ -52,12 +75,32 @@ LEXEME	REPLACEMENT	COMMENT
 *juan or *jon ?	*juan	
 *junʔ or *winʔ	*junʔ	
 *jəŋ or *ləŋ ?	*jəŋ	
+*k-h(i)uʔ ?	*k→h(i)uʔ ?	
+*k-hla	*k→hla	
+*k-hlah	*k→hlah	
+*k-hlaiʔ	*k→hlaiʔ	
+*k-hlaiʔ,*d-lai	*k→hlaiʔ,*d-lai	
+*k-hlak	*k→hlak	
 *k-hlaŋ or *thaŋ ?	*k-hlaŋ	
+*k-hlaŋ or *thaŋ ?	*k→hlaŋ or *thaŋ ?	
 *k-hlaŋh ?	*k-hlaŋ	
+*k-hlaŋh ?	*k→hlaŋh ?	
+*k-hlaʔ	*k→hlaʔ	
+*k-hlo ?	*k→hlo	
+*k-hlun	*k→hlun	
+*k-hlut	*k→hlut	
+*k-hluts	*k→hluts	
+*k-hləmʔ	*k→hləmʔ	
+*k-hu	*k→hu	
+*k-huh	*k→huh	
+*k-lhak	*k→lhak	
+*k-sroi	*k→sroi	
+*k-səm ?	*k→səm ?	
 *ka in jié-jū 拮据 (k(j)iet-kjwo) *kit-ka	*ka	
 *kamʔ or *kramʔ ?	*kamʔ	
 *kaŋh ONW keŋ	*kaŋh	
 *keat or *kot	*keat	
+*kh-iʔ / -əiʔ ?	*kh→iʔ	
 *khaŋ or *khiaŋ ?	*khaŋ	
 *khwan or *khon	*khwan	
 *khwat or *khot ?	*khwat	
@@ -91,11 +134,32 @@ LEXEME	REPLACEMENT	COMMENT
 *lon ? or *jon ?	*lon	
 *luh or *juh ?	*luh	
 *lîm or *lêm	*lîm	
-*lîm or *lêm	*lîm	
 *lît or *d-lit ?	*lît	
 *lît or *dît	*lît	
 *lô or *loʔ	*lô	
 *lôŋ or *d(l)ôŋ ?	*lôŋ	
+*m-dit ?	*m→dit	
+*m-dun ?	*m→dun ?	
+*m-l(i)unʔ ?	*m→l(i)unʔ	
+*m-l(i)ək	*m→l(i)ək	
+*m-lah	*m→lah	
+*m-lai ?	*m→lai	
+*m-lak	*m→lak	
+*m-lakh	*m→lakh	
+*m-laʔ	*m→laʔ	
+*m-let ?	*m→let	
+*m-leʔ	*m→leʔ	
+*m-lin	*m→lin	
+*m-lit ?	*m→lit	
+*m-lok	*m→lok	
+*m-lon	*m→lon	
+*m-luns	*m→luns	
+*m-lunʔ	*m→lunʔ	
+*m-lunʔ/s, *s-lun	*m→lunʔ/s	
+*m-lut ?	*m→lut	
+*m-ləŋ	*m→ləŋ	
+*m-ləŋh	*m→ləŋh	
+*m-rəns ?	*m→rəns	
 *maŋʔ-raŋʔ	*maŋʔ-raŋʔ	
 *maŋʔ-ziaŋʔ (?)	*maŋʔ-ziaŋʔ (?)	
 *minʔ-mranʔ	*minʔ-mranʔ	
@@ -115,6 +179,7 @@ LEXEME	REPLACEMENT	COMMENT
 *phâns-huâns	*phâns-huâns	
 *piu or *piau	piu	
 *pâʔ or *mpâʔ (*mpaʔ)	pâʔ	
+*r-hlut?	*r→hlut?	
 *ran or *ren ?	*ran	
 *rap or *rep?	*rap	
 *rat or *ret ?	*rat	
@@ -123,12 +188,45 @@ LEXEME	REPLACEMENT	COMMENT
 *rêkh or *rêh	*rêkh	
 *rîʔ or *rə̂iʔ	*rîʔ	
 *rôiʔ or *ruâiʔ	*rôiʔ	
+*s-jak	*s→jak	
 *s-jaŋ or *s-laŋ ?	*s-jaŋ	
+*s-jaŋ or *s-laŋ ?	*s→jaŋ	
+*s-jaŋʔ	*s→jaŋʔ	
+*s-jaŋʔ ?	*s→jaŋʔ	
 *s-jaŋʔ ? or *ziɑŋ ?	*s-jaŋʔ	
+*s-jaŋʔ ? or *ziɑŋ ?	*s→jaŋʔ	
 *s-ju or *s-lu	*s-ju	
+*s-ju or *s-lu	*s→ju	
+*s-jəiʔ ?	*s→jəiʔ	
+*s-l(i)əkh	*s→l(i)əkh	
+*s-la	*s→la	
+*s-lak	*s→lak	
+*s-lakh	*s→lakh	
+*s-lam	*s→lam	
+*s-lans ?	*s→lans	
 *s-laŋ or *s-jaŋ	*s-laŋ	
+*s-laŋ or *s-jaŋ	*s→laŋ	
+*s-laʔ	*s→laʔ	
+*s-lhak ?	*s→lhak	
+*s-lhaŋ	*s→lhaŋ	
+*s-lok	*s→lok	
+*s-loŋ	*s→loŋ	
+*s-loŋh	*s→loŋh	
 *s-luh or *s-juh ?	*s-luh	
+*s-luh or *s-juh ?	*s→luh	
+*s-lun	*s→lun	
+*s-lə	*s→lə	
+*s-ləh	*s→ləh	
+*s-ləm	*s→ləm	
+*s-ləp	*s→ləp	
+*s-ləʔ	*s→ləʔ	
 *s-ləʔ or *s-jəʔ	*s-ləʔ	
+*s-ləʔ or *s-jəʔ	*s→ləʔ	
+*s-wa/oi ?	*s→wa	
+*s-wen	*s→wen	
+*s-win	*s→win	
+*s-wins	*s→wins	
+*s-wis	*s→wis	
 *sak or sjak ?	*sak	
 *sat or *set	*sat	
 *sih or *sis?	*sih	
@@ -139,7 +237,9 @@ LEXEME	REPLACEMENT	COMMENT
 *srânʔ or *srênʔ ?	*srânʔ	
 *sîh or *sêh	*sîh	
 *sə̂iʔ or *sî(n)ʔ,*sə̂nʔ ?	*sə̂iʔ	
+*t-hlan ?	*t→hlan	
 *t-hliau ?	*t-hliau ?	
+*t-hliau ?	*t→hliau	
 *ta(t)s or *kia(t)s ?	*ta(t)s	
 *tek ? or *C-ek ?	*tek	
 *tep or *tap ?	*tep	
@@ -156,14 +256,16 @@ LEXEME	REPLACEMENT	COMMENT
 *tsa or *tsai ?	*tsa	
 *tsheŋ or *k-seŋ ?	*tsheŋ	
 *tsheʔ or *tshaiʔ	*tsheʔ	
+*tân-kân < *tlan-klan? in dān-gān 丹矸	*tân-kân
 *tshrai-drai or *-d-lai ?	*tshrai-drai	
 *tshrê or *tshrâi	*tshrê	
+*tshrôns (< *tshrâu-ns)	*tshrôns	
 *tshrəkh ?	tshrəkh	
 *tshəp or *tship (< *s-ʔip)	*tshəp	
 *tsîʔ or *tsə̂iʔ	*tsîʔ	
 *tsəi or *tsi	*tsəi	
-*tsəi or *tsi	*tsəi	
 *tôiʔ or *dôiʔ	*tôiʔ	
+*təns ONW tśin	*təns	
 *təns ONW tśin	*təns ONW tśin	
 *wai or *woi	*wai	
 *wak or *wrak	*wak	
@@ -185,6 +287,7 @@ LEXEME	REPLACEMENT	COMMENT
 *ŋîh or *ŋə̂ih	*ŋîh	
 *ŋôih or *ŋwâih	*ŋôih	
 *ŋəs ? or *ŋəih (< *ŋəls) ?	*ŋəs	
+*ʔ-aŋ ?	*ʔ→aŋ	
 *ʔah or *ʔrâh ?	*ʔah	
 *ʔiûʔ or *ʔiâuʔ ?	*ʔiûʔ	
 *ʔiûʔ-diûʔ	*ʔiûʔ-diûʔ	
@@ -197,21 +300,29 @@ LEXEME	REPLACEMENT	COMMENT
 *ʔuanʔ or *ʔonʔ	*ʔuanʔ	
 *ʔwai or *ʔoi ?	*ʔwai	
 *ʔwai-d-l(ə)i ?	*ʔwai-d-l(ə)i ?	
+*ʔwai-d-l(ə)i ?	*ʔwai-d→ləi	
+*ʔwai-d-l(ə)i ?	ʔwai-d→ləi	
 *ʔwai-lai or *ʔoi- ?	*ʔwai-lai	
 *ʔwai-lâi or *ʔoi-?	*ʔwai-lâi	
 *ʔwat or *ʔot	*ʔwat	
 *ʔwrê or *ʔwe ?	*ʔwrê	
 *ʔî(h) or *ʔə̂i(h)	*ʔî(h)	
 *ṣo ? Leibian səuᴮ < *sôʔ	*ṣo	
+QYS *dźɨᶜ	*dźɨᶜ	
+bi 4-bjəu	bi
 bi 4-bjəu	bi 4-bjəu	
 bjiet 4 Tang period: col.	bjiet	
 bjiän-pieiᶜ	bjiän-pieiᶜ	
 bjuənᴮ ``grasp, join hands''	bjuənᴮ	
+bjuᶜ-ləuᴮ	bjuᶜ	
 bjuᶜ-ləuᴮ	bjuᶜ-ləuᴮ	
+bjəu-jiəu	bjəu	
 bjəu-jiəu	bjəu-jiəu	
 boŋ-ləi ?	boŋ-ləi ?	
 buoᶜ-loᴮ [SW]	buoᶜ-loᴮ	
+bɑ-bək or bɨɑ-buk	bɑ-bək
 bɑ-bək or bɨɑ-buk	bɑ-bək	
+bəuᴮ-ləuᴮ	bəuᴮ	
 bəuᴮ-ləuᴮ	bəuᴮ-ləuᴮ	
 bɛk ``net for catching birds''	bɛk	
 diek-diei	diek-diei	
@@ -237,8 +348,10 @@ jän 3 -irregular	jän
 kiwet-diei	kiwet-diei	
 kuâᴮ-luâᴮ	kuâᴮ-luâᴮ	
 kuɑiᴮ-luɑiᴮ ~ koiᴮ-loiᴮ	kuɑiᴮ-luɑiᴮ	
+ɣuəi-ju(i)t	ɣuəi
 kân in dān-gān 丹矸 = ``丹砂 vermilion ore'' see	kân	
 kʰet-kʰot / = -kuɑt	kʰet-kʰot	
+kʰiat-kʰuât	kʰiat	
 kʰiat-kʰuât	kʰiat-kʰuât	
 kʰiəᶜ or tśʰəᶜ	kʰiəᶜ	
 kʰjiänᴮ 4	kʰjiänᴮ 4	
@@ -250,7 +363,8 @@ ljɨᴮ-ńźɨᴮ	ljɨᴮ-ńźɨᴮ
 luậiᴮ-lâk	luậiᴮ-lâk	
 luậiᴮ-lâᴮ	luậiᴮ-lâᴮ	
 mieŋ-lieŋ	mieŋ-lieŋ	
-minᴮ-mɨanᴮ	minᴮ-mɨanᴮ	
+mjen 3 [tone!] [GY]  <wow value=' LH:' color='invert' gloss='Later Han'/> mɨn	mjen	
+mjienᴮ 4-mjänᴮ 3	mjienᴮ	
 mjienᴮ 4-mjänᴮ 3	mjienᴮ-mjänᴮ	
 mjuənᶜ - tone!	mjuənᶜ	
 mjwaŋᴮ-ljaŋᴮ	mjwaŋᴮ-ljaŋᴮ	
@@ -268,9 +382,11 @@ pʰjwɐn-p.	pʰjwɐn-p.
 pʰuânᶜ-xwânᶜ	pʰuânᶜ-xwânᶜ	
 pʰɑnᶜ-huɑnᶜ	pʰɑnᶜ-huɑnᶜ	
 sinᶜ ``to interrogate question inquire'' [Shi] (< ``find the truth'').	sinᶜ	
+tieiᶜ-tuŋ	tieiᶜ	
 tieiᶜ-tuŋ	tieiᶜ-tuŋ	
 tsʰiᶜ or tsʰis	tsʰiᶜ	
 tsʰoᴮ-maᴮ	tsʰoᴮ-maᴮ	
+tsʰəuᴮ-maᴮ	tsʰəuᴮ	
 tsʰəuᴮ-maᴮ	tsʰəuᴮ-maᴮ	
 tuâᴮ tuɑᴮ *toiʔ	tuâᴮ	
 tśau or kiau ?	tśau	
@@ -280,6 +396,7 @@ tśjän-dân	tśjän-dân
 tśɑiʔ or kiɑiʔ ? (MHan)	tśɑiʔ	
 tśəᶜ or kiəᶜ ?	tśəᶜ	
 tɐŋᴮ Sin Sukchu SR tiŋ (上) LR ta	tɐŋᴮ	
+tʰiek-tʰiek	tʰiek	
 tʰiek-tʰiek	tʰiek-tʰiek	
 tṣʰjie-ḍjie	tṣʰjie-ḍjie	
 tṣʰɑi-ḍɑi	tṣʰɑi-ḍɑi	
@@ -289,11 +406,14 @@ wian or wen	wian
 wih or wis?	wih	
 xuoᴮ-pʰɐk	xuoᴮ-pʰɐk	
 ńoŋ ``id.'' [Zuo]	ńoŋ	
+ńźju-ńźie	ńźju	
 ńźju-ńźie	ńźju-ńźie	
 ŋɨs or ŋɨiᶜ ?	ŋɨs	
 śak ? or śek ? or hɨk ?	śak	
 śeᴮ or śɑiᴮ ?	śeᴮ	
+ɣaɨᶜ-ɣəuᶜ	ɣaɨᶜ	
 ɣaɨᶜ-ɣəuᶜ	ɣaɨᶜ-ɣəuᶜ	
+ɣuậi-jiwet	ɣuậi	
 ɣuậi-jiwet	ɣuậi-jiwet	
 ʔeuᴮ-deuᴮ	ʔeuᴮ-deuᴮ	
 ʔeuᴮ-kɨauᴮ	ʔeuᴮ-kɨauᴮ	
@@ -306,8 +426,4 @@ xuoᴮ-pʰɐk	xuoᴮ-pʰɐk
 ḍjəu-mjeu	ḍjəu-mjeu	
 ṣan(ᴮ) or ṣɛn ?	ṣan(ᴮ)	
 ṣjɛt-ṣjuət	ṣjɛt-ṣjuət	
-QYS *dźɨᶜ	*dźɨᶜ	
-mjen 3 [tone!] [GY]  <wow value=' LH:' color='invert' gloss='Later Han'/> mɨn	mjen	
-*tshrôns (< *tshrâu-ns)	*tshrôns	
-*təns ONW tśin	*təns	
 ≠ *mə ?	mə	

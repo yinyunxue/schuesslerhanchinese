@@ -589,6 +589,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Number,Description
 798-RudderGYShiming,"""Rudder"" 舵 [GY], 柁 [Shiming].",,,,"""Rudder"" 舵 [GY], 柁 [Shiming]."
 799-TochopcutGY,"""To chop, cut"" [GY].",,,,"""To chop, cut"" [GY]."
 800-SlantingShi,"""Slanting"" [Shi].",,,,"""Slanting"" [Shi]. 1:*ŋaj > 俄 OCM *ŋâi, WB ŋaiᶜ ""to lean, be inclined to one side"" (Matisoff 1995a: 85) ⪤ hŋaiᶜ ""incline, set on one side"", JP ŋaʔ³¹ < ŋak ``slanted'', perhaps WT sñe-ba (< s-ŋye < s-ŋe ?) ``to lean against, rest on, lie down'', but WT can phonologically also be connected with the paralle stem: 2:*C-nwaj > PLB *ʔnwe ""lean over (and fall)"" (Matisoff 1970, JAOS 90.1: 39), WB hnwaiᴮ ""lean sideways, incline""."
+801-NA,NA,,,,NA
 802-GooseMeng,"""Goose"" [Meng].",,,,"""Goose"" [Meng]. ""wild goose"", may have ended in a PCH final *-l or *-r."
 803-TomoveactchangeShuShi,"""To move, act, change"" 訛 [Shu], 吪 [Shi].",,,,"""To move, act, change"" 訛 [Shu], 吪 [Shi]."
 804-PropertygoodsricheswaresShu,"""Property, goods, riches, wares"" [Shu].",,,,"""Property, goods, riches, wares"" [Shu]."
@@ -1786,6 +1787,7 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Number,Description
 2375-TodisplayexposearrangeGuoyu,"""To display, expose, arrange"" [Guoyu].",,,,"""To display, expose, arrange"" [Guoyu]."
 2376-GueststrangerZuo,"""Guest, stranger"" [Zuo],",,,,"""Guest, stranger"" [Zuo], ""traveller"" [Yi], ""road"" [Li]."
 2377-LodgelodgingShi,"""Lodge, lodging"" [Shi].",,,,"""Lodge, lodging"" [Shi]. ""guest, traveller"". (2) An endoactive derivation ({§4.5}) of {lú₂ 廬} ""hut"". (3) It could possibly belong to the ST stem *s-jak ~ *r-jak ``24 hr. day, spend the night'', see {xī₁ 夕} for suggestive Lushai cognates."
+2378-MaterialfromwhichbronzevesselswerecastonlyinZhouBIQiuXigui2000305mayberelatedtoWTragan,"""Material from which bronze vessels were cast"" [only in Zhou BI] (Qiu Xigui 2000: 305) may be related to WT ra-gan",,,,"""Material from which bronze vessels were cast"" [only in Zhou BI] (Qiu Xigui 2000: 305) may be related to WT ra-gan ""brass"", rag- in compounds."
 2379-NA,NA,,,,NA
 2380-TogoalongfollowleadShi,"""To go along, follow, lead"" 率 [Shi];",,,,"""To go along, follow, lead"" 率 [Shi]; ""lead an army"" 帥 [Zuo], ""obey"" [Li]."
 2381-LeaderofficerZuo,"""Leader, officer"" [Zuo].",,,,"""Leader, officer"" [Zuo]."
@@ -2734,7 +2736,6 @@ ID,Name,Concepticon_ID,Concepticon_Gloss,Number,Description
 3689-FieldageneraltermBIShi,"""Field"", a general term [BI; Shi].",,,,"""Field"", a general term [BI; Shi]."
 3690-1TocultivatetillhuntShi2601,"1:``To cultivate, till; hunt'' 田 [Shi 260, 1].",,,,"1:``To cultivate, till; hunt'' 田 [Shi 260, 1]. 2:``Demesne, royal domain, a type of fief, a feudal title'' 甸 [BI; Shu]."
 3691-BecalmtranquilShu,"""Be calm, tranquil"" [Shu].",,,,"""Be calm, tranquil"" [Shu]."
-3692-BecalmLaoChuci,"""Be calm"" 澹 [Lao], 憺 [Chuci].",,,,"""Be calm"" 澹 [Lao], 憺 [Chuci]."
 3693-SweetSW,"""Sweet"" [SW].",,,,"""Sweet"" [SW]."
 3694-FulltofillblockGuoceLi,"""Full, to fill, block"" 填 [Guoce], 顛 [Li].",,,,"""Full, to fill, block"" 填 [Guoce], 顛 [Li]."
 3695-TostopupChuci,"""To stop up"" [Chuci].",,,,"""To stop up"" [Chuci]."

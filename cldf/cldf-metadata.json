@@ -14,7 +14,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/yinyunxue/schuesslerhanchinese",
-            "dc:created": "c3de4b8"
+            "dc:created": "6a4dd04"
         },
         {
             "rdf:type": "prov:Entity",
@@ -57,7 +57,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 11352,
+            "dc:extent": 11353,
             "tableSchema": {
                 "columns": [
                     {
@@ -133,6 +133,10 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "Chinese_Character_Variants"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "Entry_In_Source"
                     },
                     {
@@ -146,6 +150,10 @@
                     {
                         "datatype": "string",
                         "name": "Sino_Tibetan_Cognates"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Syllable_Types"
                     }
                 ],
                 "foreignKeys": [
@@ -246,7 +254,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 3896,
+            "dc:extent": 3897,
             "tableSchema": {
                 "columns": [
                     {

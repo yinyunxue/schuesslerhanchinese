@@ -24,18 +24,18 @@ The data underlying Schuessler's ABC Etymological Dictionary of Old Chinese have
 ![Glottolog: 0%](https://img.shields.io/badge/Glottolog-0%25-red.svg "Glottolog: 0%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
-![BIPA: 99%](https://img.shields.io/badge/BIPA-99%25-green.svg "BIPA: 99%")
-![CLTS SoundClass: 99%](https://img.shields.io/badge/CLTS%20SoundClass-99%25-green.svg "CLTS SoundClass: 99%")
+![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
+![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 3
-- **Concepts:** 3,896
-- **Lexemes:** 11,352
+- **Concepts:** 3,897
+- **Lexemes:** 11,353
 - **Sources:** 1
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
-- **Tokens:** 41,845
-- **Segments:** 81 (1 BIPA errors, 1 CTLS sound class errors, 80 CLTS modified)
-- **Inventory size (avg):** 55.00
+- **Tokens:** 40,440
+- **Segments:** 102 (0 BIPA errors, 0 CLTS sound class errors, 102 CLTS modified)
+- **Inventory size (avg):** 65.33
 
 # Contributors
 
